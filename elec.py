@@ -51,26 +51,30 @@ def scrape(pipelineNames, dates):
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(endDate))
             endDate.send_keys(date[1])
             runScreen.click()
-            driver.implicitly_wait(60)
-            export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
-            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(export))
-            time.sleep(1)
-            export.click()
-            driver.implicitly_wait(60)
-            download = driver.find_element(By.CLASS_NAME, "downloadLink")
-            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
-            time.sleep(0.5)
-            download.click()
-            time.sleep(2)
-            chwd = driver.window_handles
-            for w in chwd:
-                if (w != p):
-                    driver.switch_to.window(w)
-                    break
-            driver.close()
-            driver.switch_to.window(p)
-            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
-            criteria.click()
+            try:
+                driver.implicitly_wait(60)
+                export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
+                WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(export))
+                export.click()
+            except:
+                criteria.click()
+                continue
+            else:
+                driver.implicitly_wait(60)
+                download = driver.find_element(By.CLASS_NAME, "downloadLink")
+                WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
+                time.sleep(0.5)
+                download.click()
+                time.sleep(2)
+                chwd = driver.window_handles
+                for w in chwd:
+                    if (w != p):
+                        driver.switch_to.window(w)
+                        break
+                driver.close()
+                driver.switch_to.window(p)
+                WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
+                criteria.click()
 
     time.sleep(30)
     driver.quit()
