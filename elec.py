@@ -1,5 +1,4 @@
 import time
-import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -15,6 +14,7 @@ def scrape(pipelineNames, dates):
 
     # login
     username = driver.find_element(By.NAME, "username").send_keys("jasonross@uchicago.edu")
+    time.sleep(0.5)
     password =  driver.find_element(By.NAME, "password").send_keys("gyvfen-wujCe4-newxun")
     login = driver.find_element(By.XPATH, "//*[@id='login-mfe-container']/div/div/div/main/div/div/div/form/div[4]/div[1]/button").click()
 
@@ -45,8 +45,10 @@ def scrape(pipelineNames, dates):
         for date in dates:
             driver.implicitly_wait(15)
             startDate.clear()
+            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(startDate))
             startDate.send_keys(date[0])
             endDate.clear()
+            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(endDate))
             endDate.send_keys(date[1])
             runScreen.click()
             driver.implicitly_wait(60)
@@ -55,9 +57,9 @@ def scrape(pipelineNames, dates):
             time.sleep(1)
             export.click()
             driver.implicitly_wait(60)
-            download = driver.find_element(By.XPATH, "/html/body/div[7]/div/div/div[2]/a")
+            download = driver.find_element(By.CLASS_NAME, "downloadLink")
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
-            time.sleep(1)
+            time.sleep(0.5)
             download.click()
             time.sleep(2)
             chwd = driver.window_handles
