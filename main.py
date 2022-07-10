@@ -4,8 +4,6 @@ import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
 # import function definitions from elec.py
@@ -17,7 +15,7 @@ with open('/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/temp.csv', ne
     pipelineNames = list(reader)
 
 # adjust directory as appropriate (can also make date ranges more granular, should data exceed download limit)
-with open('/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/dates.csv', newline = '') as f:
+with open('/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/datesBimonthly.csv', newline = '') as f:
     reader = csv.reader(f)
     dates = list(reader)  
 

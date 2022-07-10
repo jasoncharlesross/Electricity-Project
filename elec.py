@@ -1,10 +1,13 @@
 import time
+import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
+from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 
 def scrape(pipelineNames, dates):
     driver = webdriver.Safari()
@@ -23,10 +26,6 @@ def scrape(pipelineNames, dates):
     driver.get("https://www.capitaliq.spglobal.com/web/client?auth=inherit#office/screener?perspective=241019")
     driver.implicitly_wait(15)
     cookieAccept = driver.find_element(By.XPATH, "//*[@id='onetrust-accept-btn-handler']").click()
-    driver.implicitly_wait(15)
-    next1 = driver.find_element(By.XPATH, "//*[@id='walkme-balloon-6823803']/div/div[1]/div[4]/div[2]/div/button").click()
-    driver.implicitly_wait(15)
-    next2 =  driver.find_element(By.XPATH, "//*[@id='walkme-balloon-3054154']/div/div[1]/div[4]/div[2]/div/button").click()
 
     textbox = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/form/div/div/div/div[1]/div[2]/div[1]/div[2]/div[2]/div/input")
     startDate = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/form/div/div/div/div[1]/div[2]/div[4]/div[2]/div[2]/div/div[1]/div/input")
@@ -39,34 +38,57 @@ def scrape(pipelineNames, dates):
     p = driver.current_window_handle
 
     for pipeline in pipelineNames:
+        nullPipelineCounter = 0
         driver.implicitly_wait(15)
         textbox.clear()
         textbox.send_keys(pipeline)
         for date in dates:
+            if nullPipelineCounter >= 3:
+                print(pipeline, " HAS NO ENTRIES")
+                break
             driver.implicitly_wait(15)
-            startDate.clear()
-            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(startDate))
-            startDate.send_keys(date[0])
-            endDate.clear()
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(endDate))
+            endDate.clear()
             endDate.send_keys(date[1])
+            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(startDate))
+            startDate.clear()
+            startDate.send_keys(date[0])
             runScreen.click()
+            # dismiss new user guide pop ups (first subiteration of first iteration only)
+            if pipeline == pipelineNames[0] and date == dates[0]:
+                driver.implicitly_wait(60)
+                next1 = driver.find_element(By.XPATH, "//*[@id='walkme-balloon-6823803']/div/div[1]/div[4]/div[2]/div/button")
+                WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(next1))
+                next1.click()
+            # determine whether export link is available (would be unavailable if zero data to export)
+            # if no export link is available, abandon this iteration of the loop
             try:
                 driver.implicitly_wait(60)
                 export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
-                WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(export))
+                WebDriverWait(driver, 50).until(expected_conditions.element_to_be_clickable(export))
+                time.sleep(1)
                 export.click()
-            except:
+            except ElementNotInteractableException:
+                nullPipelineCounter += 1
+                criteria.click()
+                continue
+            except TimeoutException:
+                nullPipelineCounter += 1
+                criteria.click()
+                continue
+            except NoSuchElementException:
+                nullPipelineCounter += 1
                 criteria.click()
                 continue
             else:
+                # determine whether download link is available (would be unavailable if too much data to export)
+                # if no download link is available, break this iteration of the loop (and report to terminal)
                 try:
                     driver.implicitly_wait(60)
                     download = driver.find_element(By.CLASS_NAME, "downloadLink")
                 except:
-                    #driver.find_element(By.XPATH, "//*[@id='toast-container']/div/button").click()
                     criteria.click()
-                    print(pipeline)
+                    print(pipeline, " HAS TOO MANY ENTRIES")
                     break
                 else:
                     WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
