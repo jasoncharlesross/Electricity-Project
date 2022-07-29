@@ -1,16 +1,22 @@
 library(dplyr)
 library(tidyverse)
 library(janitor)
+library(rjson)
 
 data <- clean_names(read_csv("/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/Scrape #2/all.csv"))
 pipeline_names <- read_csv("/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/Scrape #2/pipeline_names.csv")
-output <- matrix(nrow = 11, ncol = 100)
 
-for (i in 1:length(pipeline_names$pipeline_sys)) {
-  filter <- data %>% filter(pipeline_name == pipeline_names$pipeline_sys[i])
-  rate_schedules <- unique(filter$rate_schedule)
-  output[i,] <- c(pipeline_names$pipeline_sys[i], rate_schedules, 
-                  rep("", 99-length(rate_schedules)))
+get_rates <- function(contracts, pipelines) {
+  output <- matrix(ncol = 100, nrow = 11)
+  for (i in 1:length(pipelines$pipeline_sys)) {
+    filter <- contracts %>% filter(pipeline_name == pipelines$pipeline_sys[i])
+    unique <- unique(filter$rate_schedule)
+    output[i,1] <- pipelines$pipeline_sys[i]
+    output[i,2:(length(unique)+1)] <- unique
+  }
+  output
 }
 
-write.csv(output, "/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/Scrape #2/rate_schedule.csv")
+out <- get_rates(data, pipeline_names)
+
+write.table(out, "/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/Scrape #2/rate_schedule.csv", sep=",",  col.names = FALSE, row.names = FALSE)
