@@ -19,4 +19,4 @@ get_rates <- function(contracts, pipelines) {
 
 out <- get_rates(data, pipeline_names)
 
-write.table(out, "/Users/jasonross/Desktop/Hortaçsu/Electricity-Project/Scrape #2/rate_schedule.csv", sep=",",  col.names = FALSE, row.names = FALSE)
+write.table(out, "/home/jasonross/scratch-midway2/check_missing/columbia.csv", sep=",",  col.names = FALSE, row.names = FALSE)
