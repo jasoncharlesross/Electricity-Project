@@ -9,7 +9,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 
-def write_list_to_file(file, list):
+def write_list_to_file(list, file):
     i = 0
     while i < len(list):
         file.write("\"" + list[i] + "\",")
@@ -48,6 +48,7 @@ def scrape(pipeline_names, dates, error):
     p = driver.current_window_handle
 
     for pipeline in pipeline_names:
+        j = 0
         for date in dates:
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(pipeline_textbox))
             pipeline_textbox.clear()
@@ -57,11 +58,11 @@ def scrape(pipeline_names, dates, error):
 
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(start_date))
             start_date.clear()
-            start_date.send_keys(date[1])
+            start_date.send_keys(date[0])
 
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(end_date))
             end_date.clear()
-            end_date.send_keys(date[2])
+            end_date.send_keys(date[1])
             
             time.sleep(0.5)
             run_screen.click()
@@ -70,32 +71,42 @@ def scrape(pipeline_names, dates, error):
 
             num_results_element = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/form/div/div/div/div[1]/div[2]/div[10]/div[2]/div[4]/div[1]")
 
-            time.sleep(10)
+            time.sleep(2)
             num_results = num_results_element.text
+            while num_results == "":
+                time.sleep(0.5)
+                num_results = num_results_element.text
             if ">" in num_results:
-                write_list_to_file([pipeline, date[1], date[2], 250000], error)
+                error.write("\"" +  str(pipeline) + "\",")
+                write_list_to_file([date[0], date[1], "250000"], error)
                 error.write("\"> 250000 entries\"\n")
                 continue
             else:
                 num_results = int(num_results.replace(",", ""))
                 if num_results > 65000:
-                    write_list_to_file([pipeline, date[1], date[2], num_results], error)
-                    error.write("\"" + num_results + " entries\"\n")
+                    error.write("\"" + str(pipeline) + "\",")
+                    write_list_to_file([date[0], date[1], str(num_results)], error)
+                    error.write("\"65000 < num_entries < 250000\"\n")
+                    time.sleep(5)
+                    criteria.click()
                     continue
                 if num_results == 0:
-                    write_list_to_file([pipeline, date[1], date[2], 0], error)
+                    error.write("\"" + str(pipeline) + "\",")
+                    write_list_to_file([date[0], date[1], "0"], error)
                     error.write("\"0 entries\"\n")
+                    driver.implicitly_wait(30)
+                    criteria.click()
                     continue
 
             # end new stuff
 
-            driver.implicitly_wait(45)
+            driver.implicitly_wait(60)
             export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
             WebDriverWait(driver, 45).until(expected_conditions.element_to_be_clickable(export))
             time.sleep(1)
             export.click()
 
-            driver.implicitly_wait(45)
+            driver.implicitly_wait(60)
             download = driver.find_element(By.CLASS_NAME, "downloadLink")
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
             time.sleep(0.5)
@@ -111,7 +122,7 @@ def scrape(pipeline_names, dates, error):
             driver.switch_to.window(p)
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
             criteria.click()
-
+        j += 1
             # try:
             #     driver.implicitly_wait(45)
             #     export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
@@ -161,5 +172,5 @@ def scrape(pipeline_names, dates, error):
             #         driver.switch_to.window(p)
             #         WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
             #         criteria.click()
-    time.sleep(15)
+    time.sleep(5)
     driver.quit()
