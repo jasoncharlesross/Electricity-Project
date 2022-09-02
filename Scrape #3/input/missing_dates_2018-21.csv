@@ -1,0 +1,656 @@
+begin_date_diff,end_date_diff,date_diff,pipeline
+9/21/2019,9/27/2019,6,Northwest Pipeline LLC
+1/13/2020,1/17/2020,4,Northern Natural Gas Company
+2/2/2020,2/4/2020,2,Northern Natural Gas Company
+3/4/2020,4/1/2020,28,Northern Natural Gas Company
+4/1/2020,4/15/2020,14,Northern Natural Gas Company
+4/21/2020,5/1/2020,10,Northern Natural Gas Company
+5/6/2020,6/1/2020,26,Northern Natural Gas Company
+6/11/2020,6/14/2020,3,Northern Natural Gas Company
+6/26/2020,8/1/2020,36,Northern Natural Gas Company
+8/1/2020,8/17/2020,16,Northern Natural Gas Company
+8/18/2020,10/1/2020,44,Northern Natural Gas Company
+10/1/2020,10/13/2020,12,Northern Natural Gas Company
+10/26/2020,11/1/2020,6,Northern Natural Gas Company
+11/1/2020,11/5/2020,4,Northern Natural Gas Company
+11/6/2020,11/10/2020,4,Northern Natural Gas Company
+11/12/2020,12/1/2020,19,Northern Natural Gas Company
+12/1/2020,12/15/2020,14,Northern Natural Gas Company
+3/29/2018,4/1/2018,3,"Pine Prairie Energy Center, LLC"
+2/19/2021,2/21/2021,2,"North Baja Pipeline, LLC"
+12/10/2021,12/12/2021,2,"North Baja Pipeline, LLC"
+12/17/2021,12/19/2021,2,"North Baja Pipeline, LLC"
+9/1/2020,9/29/2020,28,"Ozark Gas Transmission, L.L.C."
+9/29/2020,10/1/2020,2,"Ozark Gas Transmission, L.L.C."
+10/1/2020,10/9/2020,8,"Ozark Gas Transmission, L.L.C."
+10/9/2020,10/17/2020,8,"Ozark Gas Transmission, L.L.C."
+10/19/2020,10/27/2020,8,"Ozark Gas Transmission, L.L.C."
+3/29/2018,4/1/2018,3,"Stagecoach Pipeline and Storage Company, LLC"
+4/1/2018,4/5/2018,4,"Stagecoach Pipeline and Storage Company, LLC"
+8/1/2018,8/4/2018,3,"Stagecoach Pipeline and Storage Company, LLC"
+8/11/2018,8/13/2018,2,"Stagecoach Pipeline and Storage Company, LLC"
+8/23/2018,8/25/2018,2,"Stagecoach Pipeline and Storage Company, LLC"
+9/2/2018,9/4/2018,2,"Stagecoach Pipeline and Storage Company, LLC"
+6/26/2020,6/28/2020,2,"Stagecoach Pipeline and Storage Company, LLC"
+7/2/2020,7/15/2020,13,"Stagecoach Pipeline and Storage Company, LLC"
+8/1/2020,8/3/2020,2,"Stagecoach Pipeline and Storage Company, LLC"
+8/6/2020,8/11/2020,5,"Stagecoach Pipeline and Storage Company, LLC"
+8/12/2020,8/14/2020,2,"Stagecoach Pipeline and Storage Company, LLC"
+2/11/2021,2/13/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+4/5/2021,4/7/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+5/11/2021,5/13/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+7/15/2021,7/18/2021,3,"Stagecoach Pipeline and Storage Company, LLC"
+7/30/2021,8/1/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+8/17/2021,8/19/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+9/1/2021,9/20/2021,19,"Stagecoach Pipeline and Storage Company, LLC"
+9/26/2021,9/28/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+10/6/2021,10/8/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+10/18/2021,10/20/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+10/26/2021,10/29/2021,3,"Stagecoach Pipeline and Storage Company, LLC"
+11/9/2021,11/12/2021,3,"Stagecoach Pipeline and Storage Company, LLC"
+12/10/2021,12/14/2021,4,"Stagecoach Pipeline and Storage Company, LLC"
+12/22/2021,12/24/2021,2,"Stagecoach Pipeline and Storage Company, LLC"
+5/5/2021,5/14/2021,9,"Florida Gas Transmission Company, LLC"
+11/24/2021,11/30/2021,6,"Florida Gas Transmission Company, LLC"
+12/2/2021,12/5/2021,3,"Florida Gas Transmission Company, LLC"
+10/20/2018,10/22/2018,2,"Enable Gas Transmission, LLC"
+5/13/2020,5/19/2020,6,"MountainWest Overthrust Pipeline, LLC"
+5/26/2020,5/28/2020,2,"MountainWest Overthrust Pipeline, LLC"
+5/29/2020,6/1/2020,3,"MountainWest Overthrust Pipeline, LLC"
+6/5/2020,6/14/2020,9,"MountainWest Overthrust Pipeline, LLC"
+6/15/2020,6/17/2020,2,"MountainWest Overthrust Pipeline, LLC"
+6/26/2020,6/28/2020,2,"MountainWest Overthrust Pipeline, LLC"
+7/2/2020,7/15/2020,13,"MountainWest Overthrust Pipeline, LLC"
+7/17/2020,7/21/2020,4,"MountainWest Overthrust Pipeline, LLC"
+7/23/2020,9/1/2020,40,"MountainWest Overthrust Pipeline, LLC"
+9/1/2020,9/24/2020,23,"MountainWest Overthrust Pipeline, LLC"
+8/23/2021,8/27/2021,4,"Sabal Trail Transmission, LLC"
+9/20/2019,9/22/2019,2,"Mojave Pipeline Company, L.L.C."
+11/9/2020,11/11/2020,2,Paiute Pipeline Company
+11/12/2020,11/14/2020,2,Paiute Pipeline Company
+12/31/2019,2/1/2020,32,"OkTex Pipeline Company, L.L.C."
+9/20/2019,9/23/2019,3,"Gulf South Pipeline Company, LP"
+1/17/2020,1/19/2020,2,"Gulf South Pipeline Company, LP"
+1/24/2020,1/27/2020,3,"Gulf South Pipeline Company, LP"
+2/1/2020,2/4/2020,3,"Gulf South Pipeline Company, LP"
+2/7/2020,2/9/2020,2,"Gulf South Pipeline Company, LP"
+2/11/2020,2/13/2020,2,"Gulf South Pipeline Company, LP"
+2/19/2021,2/21/2021,2,"Nautilus Pipeline Company, L.L.C."
+10/11/2021,11/1/2021,21,"Nautilus Pipeline Company, L.L.C."
+11/1/2021,11/12/2021,11,"Nautilus Pipeline Company, L.L.C."
+12/10/2021,12/13/2021,3,"Nautilus Pipeline Company, L.L.C."
+12/17/2021,12/19/2021,2,"Nautilus Pipeline Company, L.L.C."
+12/24/2021,12/26/2021,2,"Nautilus Pipeline Company, L.L.C."
+1/31/2019,3/1/2019,29,"Sea Robin Pipeline Company, LLC"
+6/30/2019,8/1/2019,32,"Sea Robin Pipeline Company, LLC"
+8/23/2021,8/27/2021,4,"Southeast Supply Header, LLC."
+5/13/2020,5/19/2020,6,Questar Southern Trails Pipeline Company
+5/26/2020,5/28/2020,2,Questar Southern Trails Pipeline Company
+5/29/2020,6/1/2020,3,Questar Southern Trails Pipeline Company
+6/8/2020,6/14/2020,6,Questar Southern Trails Pipeline Company
+6/26/2020,6/28/2020,2,Questar Southern Trails Pipeline Company
+7/2/2020,7/5/2020,3,Questar Southern Trails Pipeline Company
+7/6/2020,7/15/2020,9,Questar Southern Trails Pipeline Company
+7/17/2020,7/21/2020,4,Questar Southern Trails Pipeline Company
+7/24/2020,9/1/2020,39,Questar Southern Trails Pipeline Company
+9/1/2020,9/4/2020,3,Questar Southern Trails Pipeline Company
+9/7/2020,9/24/2020,17,Questar Southern Trails Pipeline Company
+10/15/2020,10/19/2020,4,Questar Southern Trails Pipeline Company
+9/1/2018,9/4/2018,3,"Portland Natural Gas Transmission System, LP"
+8/12/2021,9/1/2021,20,"Portland Natural Gas Transmission System, LP"
+9/1/2021,9/20/2021,19,"Portland Natural Gas Transmission System, LP"
+9/26/2021,9/29/2021,3,"Portland Natural Gas Transmission System, LP"
+10/6/2021,11/1/2021,26,"Portland Natural Gas Transmission System, LP"
+11/1/2021,11/17/2021,16,"Portland Natural Gas Transmission System, LP"
+11/20/2021,11/22/2021,2,"Portland Natural Gas Transmission System, LP"
+11/29/2021,12/1/2021,2,"Portland Natural Gas Transmission System, LP"
+12/1/2021,12/4/2021,3,"Portland Natural Gas Transmission System, LP"
+10/5/2021,11/1/2021,27,Northern Border Pipeline Company
+11/1/2021,11/22/2021,21,Northern Border Pipeline Company
+11/22/2021,12/31/2021,39,Northern Border Pipeline Company
+8/23/2021,8/27/2021,4,Nexus
+6/22/2019,6/25/2019,3,"Stingray Pipeline Company, L.L.C."
+2/4/2020,2/6/2020,2,"Stingray Pipeline Company, L.L.C."
+2/14/2020,2/19/2020,5,"Stingray Pipeline Company, L.L.C."
+6/26/2020,6/28/2020,2,"Stingray Pipeline Company, L.L.C."
+7/6/2020,7/15/2020,9,"Stingray Pipeline Company, L.L.C."
+8/8/2020,8/11/2020,3,"Stingray Pipeline Company, L.L.C."
+2/19/2021,2/21/2021,2,"Stingray Pipeline Company, L.L.C."
+8/23/2021,8/27/2021,4,"Steckman Ridge, LP"
+10/19/2021,10/22/2021,3,"Steckman Ridge, LP"
+11/3/2021,11/5/2021,2,"Steckman Ridge, LP"
+9/5/2019,9/7/2019,2,MoGas Pipeline LLC
+9/20/2019,9/23/2019,3,MoGas Pipeline LLC
+12/5/2019,12/7/2019,2,MoGas Pipeline LLC
+3/21/2020,3/23/2020,2,MoGas Pipeline LLC
+5/1/2020,5/3/2020,2,MoGas Pipeline LLC
+5/24/2020,5/26/2020,2,MoGas Pipeline LLC
+7/12/2020,7/14/2020,2,MoGas Pipeline LLC
+11/4/2020,11/6/2020,2,MoGas Pipeline LLC
+11/21/2020,11/23/2020,2,MoGas Pipeline LLC
+12/19/2020,12/22/2020,3,MoGas Pipeline LLC
+12/26/2020,12/28/2020,2,MoGas Pipeline LLC
+1/3/2021,1/5/2021,2,MoGas Pipeline LLC
+3/12/2021,3/14/2021,2,MoGas Pipeline LLC
+4/3/2021,4/5/2021,2,MoGas Pipeline LLC
+4/9/2021,4/11/2021,2,MoGas Pipeline LLC
+7/4/2021,7/6/2021,2,MoGas Pipeline LLC
+7/11/2021,7/13/2021,2,MoGas Pipeline LLC
+7/14/2021,7/16/2021,2,MoGas Pipeline LLC
+7/24/2021,7/26/2021,2,MoGas Pipeline LLC
+8/5/2021,8/8/2021,3,MoGas Pipeline LLC
+8/8/2021,8/10/2021,2,MoGas Pipeline LLC
+8/29/2021,8/31/2021,2,MoGas Pipeline LLC
+9/2/2021,9/5/2021,3,MoGas Pipeline LLC
+9/18/2021,9/22/2021,4,MoGas Pipeline LLC
+10/10/2021,10/12/2021,2,MoGas Pipeline LLC
+10/30/2021,11/1/2021,2,MoGas Pipeline LLC
+11/20/2021,11/22/2021,2,MoGas Pipeline LLC
+11/22/2021,11/24/2021,2,MoGas Pipeline LLC
+11/27/2021,11/29/2021,2,MoGas Pipeline LLC
+9/30/2020,11/1/2020,32,Sierrita Gas Pipeline LLC
+5/13/2020,5/18/2020,5,"MountainWest Pipeline, LLC"
+5/29/2020,6/1/2020,3,"MountainWest Pipeline, LLC"
+6/1/2020,6/4/2020,3,"MountainWest Pipeline, LLC"
+6/8/2020,6/14/2020,6,"MountainWest Pipeline, LLC"
+6/23/2020,6/25/2020,2,"MountainWest Pipeline, LLC"
+6/26/2020,6/28/2020,2,"MountainWest Pipeline, LLC"
+7/2/2020,7/6/2020,4,"MountainWest Pipeline, LLC"
+7/6/2020,7/15/2020,9,"MountainWest Pipeline, LLC"
+7/17/2020,7/21/2020,4,"MountainWest Pipeline, LLC"
+7/24/2020,9/1/2020,39,"MountainWest Pipeline, LLC"
+9/1/2020,9/4/2020,3,"MountainWest Pipeline, LLC"
+9/5/2020,9/24/2020,19,"MountainWest Pipeline, LLC"
+3/18/2020,3/23/2020,5,"Millennium Pipeline Company, LLC"
+8/3/2021,8/9/2021,6,"Millennium Pipeline Company, LLC"
+8/12/2021,9/1/2021,20,"Millennium Pipeline Company, LLC"
+9/1/2021,9/20/2021,19,"Millennium Pipeline Company, LLC"
+9/26/2021,9/29/2021,3,"Millennium Pipeline Company, LLC"
+10/1/2021,10/26/2021,25,"Millennium Pipeline Company, LLC"
+11/8/2021,11/17/2021,9,"Millennium Pipeline Company, LLC"
+11/20/2021,11/24/2021,4,"Millennium Pipeline Company, LLC"
+12/3/2021,12/5/2021,2,"Millennium Pipeline Company, LLC"
+3/30/2019,4/1/2019,2,National Fuel Gas Supply Corporation
+1/27/2020,1/30/2020,3,National Fuel Gas Supply Corporation
+2/1/2020,2/3/2020,2,National Fuel Gas Supply Corporation
+2/4/2020,2/6/2020,2,National Fuel Gas Supply Corporation
+2/14/2020,2/16/2020,2,National Fuel Gas Supply Corporation
+2/17/2020,2/19/2020,2,National Fuel Gas Supply Corporation
+3/1/2020,3/6/2020,5,National Fuel Gas Supply Corporation
+3/10/2020,3/12/2020,2,National Fuel Gas Supply Corporation
+3/14/2020,3/17/2020,3,National Fuel Gas Supply Corporation
+4/12/2020,4/14/2020,2,National Fuel Gas Supply Corporation
+4/16/2020,4/19/2020,3,National Fuel Gas Supply Corporation
+4/25/2020,4/27/2020,2,National Fuel Gas Supply Corporation
+5/4/2020,5/6/2020,2,National Fuel Gas Supply Corporation
+5/29/2020,5/31/2020,2,National Fuel Gas Supply Corporation
+6/26/2020,6/28/2020,2,National Fuel Gas Supply Corporation
+7/2/2020,7/5/2020,3,National Fuel Gas Supply Corporation
+7/6/2020,7/15/2020,9,National Fuel Gas Supply Corporation
+7/15/2020,7/19/2020,4,National Fuel Gas Supply Corporation
+7/20/2020,7/22/2020,2,National Fuel Gas Supply Corporation
+7/25/2020,8/1/2020,7,National Fuel Gas Supply Corporation
+8/1/2020,8/3/2020,2,National Fuel Gas Supply Corporation
+8/4/2020,8/23/2020,19,National Fuel Gas Supply Corporation
+8/23/2020,8/29/2020,6,National Fuel Gas Supply Corporation
+8/30/2020,10/1/2020,32,National Fuel Gas Supply Corporation
+10/4/2020,10/16/2020,12,National Fuel Gas Supply Corporation
+10/16/2020,12/1/2020,46,National Fuel Gas Supply Corporation
+12/1/2020,12/10/2020,9,National Fuel Gas Supply Corporation
+10/11/2021,12/1/2021,51,National Fuel Gas Supply Corporation
+12/1/2021,12/29/2021,28,National Fuel Gas Supply Corporation
+7/4/2020,7/6/2020,2,Rockies Express Pipeline LLC
+7/4/2020,7/6/2020,2,Tallgrass Interstate Gas Transmission LLC
+9/20/2019,9/22/2019,2,"El Paso Natural Gas Company, L.L.C."
+9/15/2020,9/19/2020,4,"Mississippi Canyon Gas Pipeline, LLC"
+2/19/2021,2/21/2021,2,"Mississippi Canyon Gas Pipeline, LLC"
+5/10/2021,5/13/2021,3,"Mississippi Canyon Gas Pipeline, LLC"
+10/11/2021,12/1/2021,51,"Mississippi Canyon Gas Pipeline, LLC"
+12/10/2021,12/13/2021,3,"Mississippi Canyon Gas Pipeline, LLC"
+12/17/2021,12/19/2021,2,"Mississippi Canyon Gas Pipeline, LLC"
+12/24/2021,12/26/2021,2,"Mississippi Canyon Gas Pipeline, LLC"
+9/3/2020,9/30/2020,27,Viking Gas Transmission Company
+3/27/2020,3/30/2020,3,Trans-Union Interstate Pipeline LP
+4/10/2020,4/13/2020,3,Trans-Union Interstate Pipeline LP
+6/12/2020,6/14/2020,2,Trans-Union Interstate Pipeline LP
+6/26/2020,6/28/2020,2,Trans-Union Interstate Pipeline LP
+7/2/2020,7/15/2020,13,Trans-Union Interstate Pipeline LP
+8/7/2020,8/9/2020,2,Trans-Union Interstate Pipeline LP
+9/20/2019,9/23/2019,3,"Texas Gas Transmission, LLC"
+12/6/2019,12/8/2019,2,"Texas Gas Transmission, LLC"
+12/26/2019,1/1/2020,6,"Texas Gas Transmission, LLC"
+1/1/2020,1/6/2020,5,"Texas Gas Transmission, LLC"
+1/17/2020,1/19/2020,2,"Texas Gas Transmission, LLC"
+1/24/2020,1/27/2020,3,"Texas Gas Transmission, LLC"
+2/1/2020,2/4/2020,3,"Texas Gas Transmission, LLC"
+2/7/2020,2/9/2020,2,"Texas Gas Transmission, LLC"
+11/25/2019,11/29/2019,4,"Southern Star Central Gas Pipeline, Inc."
+4/3/2020,4/6/2020,3,"Southern Star Central Gas Pipeline, Inc."
+4/10/2020,4/13/2020,3,"Southern Star Central Gas Pipeline, Inc."
+6/12/2020,6/14/2020,2,"Southern Star Central Gas Pipeline, Inc."
+6/26/2020,6/28/2020,2,"Southern Star Central Gas Pipeline, Inc."
+7/2/2020,7/5/2020,3,"Southern Star Central Gas Pipeline, Inc."
+7/6/2020,7/15/2020,9,"Southern Star Central Gas Pipeline, Inc."
+8/1/2020,8/4/2020,3,"Southern Star Central Gas Pipeline, Inc."
+8/6/2020,8/11/2020,5,"Southern Star Central Gas Pipeline, Inc."
+8/12/2020,8/14/2020,2,"Southern Star Central Gas Pipeline, Inc."
+9/4/2020,9/7/2020,3,"Southern Star Central Gas Pipeline, Inc."
+9/8/2020,9/13/2020,5,"Southern Star Central Gas Pipeline, Inc."
+10/15/2020,10/19/2020,4,"Southern Star Central Gas Pipeline, Inc."
+10/22/2020,10/27/2020,5,"Southern Star Central Gas Pipeline, Inc."
+10/29/2020,11/1/2020,3,"Southern Star Central Gas Pipeline, Inc."
+7/4/2020,7/6/2020,2,Trailblazer Pipeline Company LLC
+5/1/2018,5/8/2018,7,"Columbia Gas Transmission, LLC"
+6/7/2018,6/15/2018,8,"Columbia Gas Transmission, LLC"
+9/7/2018,9/16/2018,9,"Columbia Gas Transmission, LLC"
+9/23/2018,10/8/2018,15,"Columbia Gas Transmission, LLC"
+10/31/2018,11/15/2018,15,"Columbia Gas Transmission, LLC"
+2/15/2019,2/24/2019,9,"Columbia Gas Transmission, LLC"
+3/30/2020,4/1/2020,2,"Columbia Gas Transmission, LLC"
+4/1/2020,4/3/2020,2,"Columbia Gas Transmission, LLC"
+4/3/2020,4/5/2020,2,"Columbia Gas Transmission, LLC"
+4/5/2020,4/7/2020,2,"Columbia Gas Transmission, LLC"
+4/7/2020,4/13/2020,6,"Columbia Gas Transmission, LLC"
+7/22/2020,7/24/2020,2,"Columbia Gas Transmission, LLC"
+7/24/2020,7/27/2020,3,"Columbia Gas Transmission, LLC"
+7/27/2020,7/29/2020,2,"Columbia Gas Transmission, LLC"
+7/29/2020,7/31/2020,2,"Columbia Gas Transmission, LLC"
+12/18/2020,12/22/2020,4,"Columbia Gas Transmission, LLC"
+12/25/2020,12/28/2020,3,"Columbia Gas Transmission, LLC"
+6/24/2021,6/26/2021,2,"Columbia Gas Transmission, LLC"
+8/2/2021,8/6/2021,4,"Columbia Gas Transmission, LLC"
+8/13/2021,9/1/2021,19,"Columbia Gas Transmission, LLC"
+9/1/2021,9/20/2021,19,"Columbia Gas Transmission, LLC"
+10/6/2021,10/25/2021,19,"Columbia Gas Transmission, LLC"
+11/7/2021,11/17/2021,10,"Columbia Gas Transmission, LLC"
+11/20/2021,11/22/2021,2,"Columbia Gas Transmission, LLC"
+11/23/2021,12/1/2021,8,"Columbia Gas Transmission, LLC"
+12/3/2021,12/5/2021,2,"Columbia Gas Transmission, LLC"
+2/19/2021,2/21/2021,2,Tuscarora Gas Transmission Company
+12/24/2021,12/26/2021,2,Tuscarora Gas Transmission Company
+8/23/2021,8/27/2021,4,"Texas Eastern Transmission, LP"
+10/19/2021,10/22/2021,3,"Texas Eastern Transmission, LP"
+11/3/2021,11/5/2021,2,"Texas Eastern Transmission, LP"
+3/29/2018,4/1/2018,3,Vector Pipeline L.P.
+9/28/2019,9/30/2019,2,Vector Pipeline L.P.
+5/13/2020,5/18/2020,5,White River Hub LLC
+5/29/2020,6/1/2020,3,White River Hub LLC
+6/8/2020,6/14/2020,6,White River Hub LLC
+6/26/2020,6/28/2020,2,White River Hub LLC
+7/2/2020,7/5/2020,3,White River Hub LLC
+7/5/2020,7/15/2020,10,White River Hub LLC
+7/17/2020,7/21/2020,4,White River Hub LLC
+7/24/2020,9/1/2020,39,White River Hub LLC
+9/1/2020,9/24/2020,23,White River Hub LLC
+10/15/2020,10/19/2020,4,White River Hub LLC
+8/3/2018,8/7/2018,4,"WTG Hugoton, L.P."
+2/8/2019,2/11/2019,3,"WTG Hugoton, L.P."
+12/6/2019,12/8/2019,2,"WTG Hugoton, L.P."
+1/17/2020,1/19/2020,2,"WTG Hugoton, L.P."
+1/24/2020,1/26/2020,2,"WTG Hugoton, L.P."
+1/28/2020,1/30/2020,2,"WTG Hugoton, L.P."
+2/4/2020,2/6/2020,2,"WTG Hugoton, L.P."
+2/6/2020,2/9/2020,3,"WTG Hugoton, L.P."
+2/14/2020,2/17/2020,3,"WTG Hugoton, L.P."
+2/21/2020,2/24/2020,3,"WTG Hugoton, L.P."
+6/26/2020,6/28/2020,2,"WTG Hugoton, L.P."
+7/2/2020,7/6/2020,4,"WTG Hugoton, L.P."
+7/7/2020,7/9/2020,2,"WTG Hugoton, L.P."
+7/10/2020,7/13/2020,3,"WTG Hugoton, L.P."
+8/1/2020,8/3/2020,2,"WTG Hugoton, L.P."
+8/7/2020,8/10/2020,3,"WTG Hugoton, L.P."
+2/12/2021,2/17/2021,5,"WTG Hugoton, L.P."
+3/26/2021,3/29/2021,3,"WTG Hugoton, L.P."
+11/22/2021,11/24/2021,2,"WTG Hugoton, L.P."
+4/15/2018,4/24/2018,9,Natural Gas Pipeline Company of America LLC
+5/15/2018,5/24/2018,9,Natural Gas Pipeline Company of America LLC
+10/31/2018,12/1/2018,31,ANR Pipeline Company
+7/31/2019,10/1/2019,62,ANR Pipeline Company
+3/31/2020,5/1/2020,31,ANR Pipeline Company
+5/31/2020,7/1/2020,31,ANR Pipeline Company
+4/30/2021,6/1/2021,32,ANR Pipeline Company
+12/10/2021,12/12/2021,2,ANR Pipeline Company
+12/17/2021,12/19/2021,2,ANR Pipeline Company
+10/5/2021,10/24/2021,19,Bison Pipeline LLC
+11/7/2021,12/31/2021,54,Bison Pipeline LLC
+8/23/2021,8/27/2021,4,"Big Sandy Pipeline, LLC"
+3/29/2018,4/1/2018,3,"Arlington Storage Company, LLC"
+12/6/2019,12/12/2019,6,"Arlington Storage Company, LLC"
+1/17/2020,1/19/2020,2,"Arlington Storage Company, LLC"
+1/24/2020,1/26/2020,2,"Arlington Storage Company, LLC"
+2/1/2020,2/3/2020,2,"Arlington Storage Company, LLC"
+2/7/2020,2/9/2020,2,"Arlington Storage Company, LLC"
+2/14/2020,2/19/2020,5,"Arlington Storage Company, LLC"
+2/20/2020,2/24/2020,4,"Arlington Storage Company, LLC"
+3/13/2020,3/16/2020,3,"Arlington Storage Company, LLC"
+4/3/2020,4/6/2020,3,"Arlington Storage Company, LLC"
+4/10/2020,4/12/2020,2,"Arlington Storage Company, LLC"
+6/5/2020,6/8/2020,3,"Arlington Storage Company, LLC"
+6/12/2020,6/14/2020,2,"Arlington Storage Company, LLC"
+6/26/2020,6/28/2020,2,"Arlington Storage Company, LLC"
+7/2/2020,7/15/2020,13,"Arlington Storage Company, LLC"
+8/1/2020,8/3/2020,2,"Arlington Storage Company, LLC"
+8/6/2020,8/11/2020,5,"Arlington Storage Company, LLC"
+8/12/2020,8/14/2020,2,"Arlington Storage Company, LLC"
+10/10/2020,10/12/2020,2,"Arlington Storage Company, LLC"
+1/1/2021,1/13/2021,12,"Arlington Storage Company, LLC"
+4/5/2021,4/7/2021,2,"Arlington Storage Company, LLC"
+5/7/2021,5/10/2021,3,"Arlington Storage Company, LLC"
+5/21/2021,5/24/2021,3,"Arlington Storage Company, LLC"
+7/30/2021,8/1/2021,2,"Arlington Storage Company, LLC"
+8/17/2021,8/19/2021,2,"Arlington Storage Company, LLC"
+8/25/2021,8/27/2021,2,"Arlington Storage Company, LLC"
+9/1/2021,9/27/2021,26,"Arlington Storage Company, LLC"
+10/5/2021,10/9/2021,4,"Arlington Storage Company, LLC"
+10/18/2021,10/20/2021,2,"Arlington Storage Company, LLC"
+10/25/2021,10/27/2021,2,"Arlington Storage Company, LLC"
+11/9/2021,11/12/2021,3,"Arlington Storage Company, LLC"
+12/10/2021,12/14/2021,4,"Arlington Storage Company, LLC"
+4/2/2019,4/5/2019,3,"BBT (Midla), LLC"
+4/10/2020,4/13/2020,3,"BBT (Midla), LLC"
+4/17/2020,4/20/2020,3,"BBT (Midla), LLC"
+6/12/2020,6/14/2020,2,"BBT (Midla), LLC"
+6/26/2020,6/28/2020,2,"BBT (Midla), LLC"
+7/2/2020,7/5/2020,3,"BBT (Midla), LLC"
+7/6/2020,7/14/2020,8,"BBT (Midla), LLC"
+4/11/2020,4/13/2020,2,Alliance Pipeline L.P.
+8/23/2021,8/27/2021,4,"Algonquin Gas Transmission, LLC"
+4/2/2019,4/4/2019,2,"BBT (AlaTenn), LLC"
+4/10/2020,4/13/2020,3,"BBT (AlaTenn), LLC"
+6/12/2020,6/14/2020,2,"BBT (AlaTenn), LLC"
+6/26/2020,6/28/2020,2,"BBT (AlaTenn), LLC"
+7/2/2020,7/5/2020,3,"BBT (AlaTenn), LLC"
+7/6/2020,7/14/2020,8,"BBT (AlaTenn), LLC"
+2/28/2018,4/1/2018,32,ANR Storage Company
+7/31/2018,11/1/2018,93,ANR Storage Company
+3/31/2019,5/1/2019,31,ANR Storage Company
+8/31/2019,10/1/2019,31,ANR Storage Company
+2/29/2020,4/1/2020,32,ANR Storage Company
+9/30/2020,11/1/2020,32,ANR Storage Company
+12/31/2020,2/1/2021,32,ANR Storage Company
+3/6/2021,3/8/2021,2,ANR Storage Company
+11/21/2021,11/24/2021,3,ANR Storage Company
+3/29/2018,4/1/2018,3,Golden Pass Pipeline LLC
+11/27/2019,11/29/2019,2,Golden Pass Pipeline LLC
+11/21/2021,11/24/2021,3,Golden Pass Pipeline LLC
+11/28/2021,11/30/2021,2,Golden Pass Pipeline LLC
+8/23/2021,8/27/2021,4,Egan Hub Storage LLC
+2/28/2018,4/1/2018,32,"Columbia Gulf Transmission, LLC"
+8/31/2019,11/1/2019,62,"Columbia Gulf Transmission, LLC"
+12/31/2019,2/1/2020,32,"Columbia Gulf Transmission, LLC"
+3/31/2020,5/1/2020,31,"Columbia Gulf Transmission, LLC"
+6/23/2020,6/29/2020,6,"Columbia Gulf Transmission, LLC"
+7/2/2020,7/15/2020,13,"Columbia Gulf Transmission, LLC"
+7/28/2020,8/1/2020,4,"Columbia Gulf Transmission, LLC"
+8/1/2020,8/28/2020,27,"Columbia Gulf Transmission, LLC"
+8/31/2020,10/1/2020,31,"Columbia Gulf Transmission, LLC"
+10/1/2020,10/4/2020,3,"Columbia Gulf Transmission, LLC"
+11/30/2020,1/1/2021,32,"Columbia Gulf Transmission, LLC"
+1/8/2021,1/11/2021,3,"Columbia Gulf Transmission, LLC"
+2/10/2021,2/12/2021,2,"Columbia Gulf Transmission, LLC"
+2/17/2021,2/19/2021,2,"Columbia Gulf Transmission, LLC"
+2/24/2021,2/26/2021,2,"Columbia Gulf Transmission, LLC"
+3/22/2021,3/24/2021,2,"Columbia Gulf Transmission, LLC"
+4/2/2021,4/9/2021,7,"Columbia Gulf Transmission, LLC"
+5/7/2021,5/12/2021,5,"Columbia Gulf Transmission, LLC"
+5/31/2021,7/1/2021,31,"Columbia Gulf Transmission, LLC"
+7/2/2021,7/6/2021,4,"Columbia Gulf Transmission, LLC"
+7/12/2021,7/15/2021,3,"Columbia Gulf Transmission, LLC"
+7/20/2021,9/1/2021,43,"Columbia Gulf Transmission, LLC"
+9/1/2021,9/29/2021,28,"Columbia Gulf Transmission, LLC"
+9/29/2021,11/1/2021,33,"Columbia Gulf Transmission, LLC"
+11/1/2021,11/21/2021,20,"Columbia Gulf Transmission, LLC"
+12/3/2021,12/5/2021,2,"Columbia Gulf Transmission, LLC"
+12/18/2020,12/20/2020,2,"Iroquois Gas Transmission System, L.P."
+2/19/2021,2/21/2021,2,"Iroquois Gas Transmission System, L.P."
+6/18/2021,6/20/2021,2,"Iroquois Gas Transmission System, L.P."
+5/31/2018,10/1/2018,123,"Elba Express Company, L.L.C."
+12/31/2019,2/1/2020,32,"Elba Express Company, L.L.C."
+5/31/2020,7/1/2020,31,"Elba Express Company, L.L.C."
+8/23/2021,8/27/2021,4,"Maritimes & Northeast Pipeline, L.L.C."
+10/20/2018,10/22/2018,2,"Enable Mississippi River Transmission, LLC"
+6/30/2019,9/1/2019,63,Discovery Gas Transmission LLC
+11/30/2019,3/1/2020,92,Discovery Gas Transmission LLC
+6/30/2020,9/1/2020,63,Discovery Gas Transmission LLC
+9/30/2020,1/1/2021,93,Discovery Gas Transmission LLC
+2/19/2021,2/21/2021,2,Discovery Gas Transmission LLC
+5/31/2021,7/1/2021,31,Discovery Gas Transmission LLC
+9/30/2021,11/1/2021,32,Discovery Gas Transmission LLC
+11/30/2021,12/31/2021,31,Discovery Gas Transmission LLC
+4/30/2018,6/1/2018,32,"Cheyenne Plains Gas Pipeline Company, LLC"
+9/30/2018,12/1/2018,62,"Cheyenne Plains Gas Pipeline Company, LLC"
+12/31/2018,2/1/2019,32,"Cheyenne Plains Gas Pipeline Company, LLC"
+2/28/2019,5/1/2019,62,"Cheyenne Plains Gas Pipeline Company, LLC"
+6/30/2019,8/1/2019,32,"Cheyenne Plains Gas Pipeline Company, LLC"
+11/30/2019,1/1/2020,32,"Cheyenne Plains Gas Pipeline Company, LLC"
+5/31/2020,9/1/2020,93,"Cheyenne Plains Gas Pipeline Company, LLC"
+1/31/2021,3/1/2021,29,"Cheyenne Plains Gas Pipeline Company, LLC"
+8/31/2021,10/1/2021,31,"Cheyenne Plains Gas Pipeline Company, LLC"
+4/30/2018,7/1/2018,62,"Destin Pipeline Company, L.L.C."
+11/30/2018,1/1/2019,32,"Destin Pipeline Company, L.L.C."
+4/2/2019,4/4/2019,2,"Destin Pipeline Company, L.L.C."
+4/30/2019,6/1/2019,32,"Destin Pipeline Company, L.L.C."
+11/30/2019,2/1/2020,63,"Destin Pipeline Company, L.L.C."
+4/10/2020,4/13/2020,3,"Destin Pipeline Company, L.L.C."
+4/17/2020,4/20/2020,3,"Destin Pipeline Company, L.L.C."
+5/30/2020,6/1/2020,2,"Destin Pipeline Company, L.L.C."
+6/12/2020,6/14/2020,2,"Destin Pipeline Company, L.L.C."
+6/26/2020,6/28/2020,2,"Destin Pipeline Company, L.L.C."
+7/2/2020,7/5/2020,3,"Destin Pipeline Company, L.L.C."
+7/6/2020,7/15/2020,9,"Destin Pipeline Company, L.L.C."
+1/31/2021,3/1/2021,29,"Destin Pipeline Company, L.L.C."
+2/28/2018,6/1/2018,93,Eastern Shore Natural Gas Company
+7/31/2018,9/1/2018,32,Eastern Shore Natural Gas Company
+10/31/2019,12/1/2019,31,Eastern Shore Natural Gas Company
+9/19/2019,9/21/2019,2,"Equitrans, L.P."
+9/22/2019,9/27/2019,5,"Equitrans, L.P."
+12/5/2019,12/7/2019,2,"Equitrans, L.P."
+6/8/2020,6/28/2020,20,"Equitrans, L.P."
+5/17/2021,5/19/2021,2,"Equitrans, L.P."
+8/4/2021,8/6/2021,2,"Equitrans, L.P."
+3/31/2018,5/1/2018,31,"Dominion Energy Carolina Gas Transmission, LLC"
+10/31/2018,12/1/2018,31,"Dominion Energy Carolina Gas Transmission, LLC"
+3/31/2019,5/1/2019,31,"Dominion Energy Carolina Gas Transmission, LLC"
+8/31/2019,10/1/2019,31,"Dominion Energy Carolina Gas Transmission, LLC"
+1/31/2020,3/1/2020,30,"Dominion Energy Carolina Gas Transmission, LLC"
+4/30/2020,6/1/2020,32,"Dominion Energy Carolina Gas Transmission, LLC"
+6/30/2020,8/1/2020,32,"Dominion Energy Carolina Gas Transmission, LLC"
+8/31/2020,10/1/2020,31,"Dominion Energy Carolina Gas Transmission, LLC"
+11/30/2020,1/1/2021,32,"Dominion Energy Carolina Gas Transmission, LLC"
+2/28/2021,4/1/2021,32,"Dominion Energy Carolina Gas Transmission, LLC"
+5/31/2021,7/1/2021,31,"Dominion Energy Carolina Gas Transmission, LLC"
+9/30/2021,11/1/2021,32,"Dominion Energy Carolina Gas Transmission, LLC"
+7/31/2018,10/1/2018,62,"Empire Pipeline, Inc."
+10/31/2018,12/1/2018,31,"Empire Pipeline, Inc."
+9/28/2019,9/30/2019,2,"Empire Pipeline, Inc."
+9/30/2019,11/1/2019,32,"Empire Pipeline, Inc."
+11/30/2019,2/1/2020,63,"Empire Pipeline, Inc."
+2/1/2020,2/3/2020,2,"Empire Pipeline, Inc."
+2/4/2020,2/6/2020,2,"Empire Pipeline, Inc."
+2/14/2020,2/16/2020,2,"Empire Pipeline, Inc."
+2/17/2020,2/19/2020,2,"Empire Pipeline, Inc."
+3/1/2020,3/3/2020,2,"Empire Pipeline, Inc."
+4/30/2020,8/1/2020,93,"Empire Pipeline, Inc."
+1/31/2021,3/1/2021,29,"Empire Pipeline, Inc."
+12/24/2021,12/26/2021,2,"Empire Pipeline, Inc."
+2/10/2018,2/12/2018,2,Dauphin Island Gathering Partners
+5/11/2018,5/16/2018,5,Dauphin Island Gathering Partners
+7/14/2018,7/18/2018,4,Dauphin Island Gathering Partners
+8/10/2018,8/17/2018,7,Dauphin Island Gathering Partners
+8/31/2018,10/1/2018,31,Dauphin Island Gathering Partners
+10/31/2018,12/1/2018,31,Dauphin Island Gathering Partners
+12/8/2018,12/10/2018,2,Dauphin Island Gathering Partners
+4/30/2019,6/1/2019,32,Dauphin Island Gathering Partners
+9/19/2019,9/21/2019,2,Dauphin Island Gathering Partners
+9/27/2019,9/30/2019,3,Dauphin Island Gathering Partners
+11/9/2019,11/12/2019,3,Dauphin Island Gathering Partners
+12/31/2019,2/1/2020,32,Dauphin Island Gathering Partners
+2/13/2020,2/20/2020,7,Dauphin Island Gathering Partners
+2/20/2020,2/24/2020,4,Dauphin Island Gathering Partners
+2/29/2020,8/1/2020,154,Dauphin Island Gathering Partners
+8/1/2020,8/18/2020,17,Dauphin Island Gathering Partners
+8/18/2020,8/26/2020,8,Dauphin Island Gathering Partners
+12/17/2020,12/22/2020,5,Dauphin Island Gathering Partners
+12/24/2020,12/30/2020,6,Dauphin Island Gathering Partners
+12/31/2020,2/1/2021,32,Dauphin Island Gathering Partners
+2/24/2021,2/26/2021,2,Dauphin Island Gathering Partners
+4/10/2021,4/13/2021,3,Dauphin Island Gathering Partners
+4/13/2021,4/15/2021,2,Dauphin Island Gathering Partners
+4/15/2021,4/19/2021,4,Dauphin Island Gathering Partners
+5/4/2021,6/1/2021,28,Dauphin Island Gathering Partners
+6/1/2021,6/22/2021,21,Dauphin Island Gathering Partners
+7/21/2021,8/1/2021,11,Dauphin Island Gathering Partners
+8/1/2021,8/11/2021,10,Dauphin Island Gathering Partners
+8/12/2021,9/1/2021,20,Dauphin Island Gathering Partners
+9/1/2021,9/23/2021,22,Dauphin Island Gathering Partners
+9/23/2021,9/28/2021,5,Dauphin Island Gathering Partners
+12/2/2021,12/6/2021,4,Dauphin Island Gathering Partners
+12/7/2021,12/9/2021,2,Dauphin Island Gathering Partners
+12/12/2021,12/14/2021,2,Dauphin Island Gathering Partners
+12/18/2021,12/20/2021,2,Dauphin Island Gathering Partners
+12/21/2021,12/23/2021,2,Dauphin Island Gathering Partners
+8/31/2018,10/1/2018,31,"Young Gas Storage Company, Ltd."
+2/19/2021,2/21/2021,2,"Gulfstream Natural Gas System, L.L.C."
+12/10/2021,12/12/2021,2,"Gulfstream Natural Gas System, L.L.C."
+12/17/2021,12/19/2021,2,"Gulfstream Natural Gas System, L.L.C."
+12/24/2021,12/26/2021,2,"Gulfstream Natural Gas System, L.L.C."
+4/30/2018,6/1/2018,32,"East Tennessee Natural Gas, LLC"
+9/30/2018,11/1/2018,32,"East Tennessee Natural Gas, LLC"
+6/30/2020,8/1/2020,32,"East Tennessee Natural Gas, LLC"
+5/31/2021,7/1/2021,31,"East Tennessee Natural Gas, LLC"
+7/31/2021,9/1/2021,32,"East Tennessee Natural Gas, LLC"
+8/1/2020,8/3/2020,2,"Garden Banks Gas Pipeline, LLC"
+2/19/2021,2/21/2021,2,"Garden Banks Gas Pipeline, LLC"
+10/11/2021,12/1/2021,51,"Garden Banks Gas Pipeline, LLC"
+12/10/2021,12/13/2021,3,"Garden Banks Gas Pipeline, LLC"
+12/17/2021,12/19/2021,2,"Garden Banks Gas Pipeline, LLC"
+12/24/2021,12/26/2021,2,"Garden Banks Gas Pipeline, LLC"
+11/21/2021,11/24/2021,3,"Kinetica Partners, LLC"
+11/28/2021,11/30/2021,2,"Kinetica Partners, LLC"
+6/30/2019,8/1/2019,32,"Dominion Energy Cove Point LNG, LP"
+8/31/2019,10/1/2019,31,"Dominion Energy Cove Point LNG, LP"
+5/22/2021,6/1/2021,10,"Dominion Energy Cove Point LNG, LP"
+6/1/2021,6/30/2021,29,"Dominion Energy Cove Point LNG, LP"
+7/16/2021,7/20/2021,4,"Dominion Energy Cove Point LNG, LP"
+2/19/2021,2/21/2021,2,Great Lakes Gas Transmission Limited Partnership
+12/10/2021,12/12/2021,2,Great Lakes Gas Transmission Limited Partnership
+12/17/2021,12/19/2021,2,Great Lakes Gas Transmission Limited Partnership
+9/30/2018,11/1/2018,32,"Eastern Gas Transmission and Storage, Inc"
+3/31/2019,5/1/2019,31,"Eastern Gas Transmission and Storage, Inc"
+5/31/2020,7/1/2020,31,"Eastern Gas Transmission and Storage, Inc"
+9/30/2020,11/1/2020,32,"Eastern Gas Transmission and Storage, Inc"
+2/28/2021,4/1/2021,32,"Eastern Gas Transmission and Storage, Inc"
+5/22/2021,7/1/2021,40,"Eastern Gas Transmission and Storage, Inc"
+7/7/2021,7/9/2021,2,"Eastern Gas Transmission and Storage, Inc"
+7/16/2021,7/20/2021,4,"Eastern Gas Transmission and Storage, Inc"
+2/15/2020,2/19/2020,4,"Granite State Gas Transmission, Inc."
+2/21/2020,2/24/2020,3,"Granite State Gas Transmission, Inc."
+3/6/2020,3/8/2020,2,"Granite State Gas Transmission, Inc."
+3/8/2020,3/10/2020,2,"Granite State Gas Transmission, Inc."
+5/12/2020,12/31/2021,598,"Granite State Gas Transmission, Inc."
+9/20/2019,9/23/2019,3,Kern River Gas Transmission Company
+2/10/2018,2/12/2018,2,"Cimarron River Pipeline, LLC"
+2/14/2018,2/16/2018,2,"Cimarron River Pipeline, LLC"
+4/10/2018,4/12/2018,2,"Cimarron River Pipeline, LLC"
+5/11/2018,5/16/2018,5,"Cimarron River Pipeline, LLC"
+6/30/2018,8/1/2018,32,"Cimarron River Pipeline, LLC"
+8/9/2018,8/17/2018,8,"Cimarron River Pipeline, LLC"
+8/17/2018,8/22/2018,5,"Cimarron River Pipeline, LLC"
+9/6/2018,9/10/2018,4,"Cimarron River Pipeline, LLC"
+3/11/2019,3/13/2019,2,"Cimarron River Pipeline, LLC"
+5/8/2019,5/12/2019,4,"Cimarron River Pipeline, LLC"
+7/31/2019,11/1/2019,93,"Cimarron River Pipeline, LLC"
+11/9/2019,11/12/2019,3,"Cimarron River Pipeline, LLC"
+11/26/2019,11/28/2019,2,"Cimarron River Pipeline, LLC"
+12/5/2019,12/7/2019,2,"Cimarron River Pipeline, LLC"
+2/13/2020,2/20/2020,7,"Cimarron River Pipeline, LLC"
+2/20/2020,2/24/2020,4,"Cimarron River Pipeline, LLC"
+3/7/2020,3/10/2020,3,"Cimarron River Pipeline, LLC"
+3/12/2020,3/14/2020,2,"Cimarron River Pipeline, LLC"
+3/17/2020,3/19/2020,2,"Cimarron River Pipeline, LLC"
+3/22/2020,3/24/2020,2,"Cimarron River Pipeline, LLC"
+3/31/2020,5/1/2020,31,"Cimarron River Pipeline, LLC"
+5/1/2020,5/20/2020,19,"Cimarron River Pipeline, LLC"
+7/4/2020,7/6/2020,2,"Cimarron River Pipeline, LLC"
+7/6/2020,7/10/2020,4,"Cimarron River Pipeline, LLC"
+7/11/2020,7/14/2020,3,"Cimarron River Pipeline, LLC"
+7/29/2020,7/31/2020,2,"Cimarron River Pipeline, LLC"
+8/3/2020,8/18/2020,15,"Cimarron River Pipeline, LLC"
+8/18/2020,8/26/2020,8,"Cimarron River Pipeline, LLC"
+8/26/2020,1/1/2021,128,"Cimarron River Pipeline, LLC"
+1/1/2021,1/6/2021,5,"Cimarron River Pipeline, LLC"
+1/14/2021,1/16/2021,2,"Cimarron River Pipeline, LLC"
+5/8/2021,8/1/2021,85,"Cimarron River Pipeline, LLC"
+8/3/2021,8/10/2021,7,"Cimarron River Pipeline, LLC"
+8/12/2021,9/1/2021,20,"Cimarron River Pipeline, LLC"
+9/1/2021,9/23/2021,22,"Cimarron River Pipeline, LLC"
+9/23/2021,9/28/2021,5,"Cimarron River Pipeline, LLC"
+9/29/2021,10/1/2021,2,"Cimarron River Pipeline, LLC"
+10/1/2021,10/8/2021,7,"Cimarron River Pipeline, LLC"
+10/8/2021,10/12/2021,4,"Cimarron River Pipeline, LLC"
+11/3/2021,11/5/2021,2,"Cimarron River Pipeline, LLC"
+12/18/2021,12/20/2021,2,"Cimarron River Pipeline, LLC"
+12/21/2021,12/23/2021,2,"Cimarron River Pipeline, LLC"
+3/29/2018,4/1/2018,3,Honeoye Storage Corporation
+11/22/2021,11/24/2021,2,Honeoye Storage Corporation
+8/17/2021,8/19/2021,2,"KPC Pipeline, LLC"
+8/19/2021,8/22/2021,3,"KPC Pipeline, LLC"
+8/25/2021,8/28/2021,3,"KPC Pipeline, LLC"
+9/2/2021,9/5/2021,3,"KPC Pipeline, LLC"
+9/18/2021,9/22/2021,4,"KPC Pipeline, LLC"
+2/19/2021,2/21/2021,2,Gas Transmission Northwest LLC
+12/10/2021,12/12/2021,2,Gas Transmission Northwest LLC
+12/17/2021,12/19/2021,2,Gas Transmission Northwest LLC
+11/1/2019,11/6/2019,5,"Chandeleur Pipe Line, LLC"
+4/10/2020,4/13/2020,3,"Chandeleur Pipe Line, LLC"
+6/12/2020,6/14/2020,2,"Chandeleur Pipe Line, LLC"
+6/26/2020,6/28/2020,2,"Chandeleur Pipe Line, LLC"
+7/2/2020,7/5/2020,3,"Chandeleur Pipe Line, LLC"
+7/6/2020,7/15/2020,9,"Chandeleur Pipe Line, LLC"
+3/29/2018,4/1/2018,3,"SG Resources Mississippi, LLC"
+11/22/2021,11/24/2021,2,"SG Resources Mississippi, LLC"
+12/31/2019,12/31/2021,731,"Cameron Interstate Pipeline, LLC"
+8/6/2020,8/13/2020,7,"Pine Needle LNG Company, L.L.C."
+8/28/2020,8/30/2020,2,"Pine Needle LNG Company, L.L.C."
+9/4/2020,9/6/2020,2,"Pine Needle LNG Company, L.L.C."
+12/5/2019,12/7/2019,2,Rager Mountain Storage Company LLC
+8/3/2021,8/5/2021,2,Crossroads Pipeline Company
+8/13/2021,9/1/2021,19,Crossroads Pipeline Company
+9/1/2021,9/3/2021,2,Crossroads Pipeline Company
+9/26/2021,9/29/2021,3,Crossroads Pipeline Company
+10/6/2021,10/26/2021,20,Crossroads Pipeline Company
+11/8/2021,11/17/2021,9,Crossroads Pipeline Company
+11/20/2021,11/23/2021,3,Crossroads Pipeline Company
+12/3/2021,12/5/2021,2,Crossroads Pipeline Company
+2/17/2020,2/19/2020,2,"Cheniere Creole Trail Pipeline, L.P."
+7/6/2020,7/11/2020,5,"Cheniere Creole Trail Pipeline, L.P."
+7/12/2020,7/15/2020,3,"Cheniere Creole Trail Pipeline, L.P."
+1/22/2021,1/24/2021,2,"Cheniere Creole Trail Pipeline, L.P."
+12/10/2021,12/12/2021,2,"Cheniere Creole Trail Pipeline, L.P."
+12/17/2021,12/19/2021,2,"Cheniere Creole Trail Pipeline, L.P."
+12/24/2021,12/26/2021,2,"Cheniere Creole Trail Pipeline, L.P."
+8/23/2021,8/27/2021,4,Saltville Gas Storage Company LLC
+3/29/2018,4/1/2018,3,"Bluewater Gas Storage, LLC"
+8/23/2021,8/27/2021,4,Bobcat Storage
+3/29/2018,4/1/2018,3,Spire Storage West LLC
+11/22/2021,11/24/2021,2,Spire Storage West LLC
+3/29/2018,4/1/2018,3,Freebird Gas Storage LLC
+11/22/2021,11/24/2021,2,Freebird Gas Storage LLC
+11/25/2021,11/27/2021,2,Freebird Gas Storage LLC
+3/29/2018,4/1/2018,3,Blue Lake Gas Storage Company
+3/6/2021,3/8/2021,2,Blue Lake Gas Storage Company
+11/22/2021,11/24/2021,2,Blue Lake Gas Storage Company
+3/29/2018,4/1/2018,3,"Caledonia Energy Partners, LLC"
+11/22/2021,11/24/2021,2,"Caledonia Energy Partners, LLC"
+3/29/2018,4/1/2018,3,"Mississippi Hub, LLC"
+6/12/2020,7/1/2020,19,"Hardy Storage Company, LLC"
+7/1/2020,7/24/2020,23,"Hardy Storage Company, LLC"
+7/31/2020,10/1/2020,62,"Hardy Storage Company, LLC"
+10/1/2020,10/17/2020,16,"Hardy Storage Company, LLC"
+10/17/2020,10/19/2020,2,"Hardy Storage Company, LLC"
+8/13/2021,9/1/2021,19,"Hardy Storage Company, LLC"
+9/1/2021,9/20/2021,19,"Hardy Storage Company, LLC"
+10/5/2021,10/31/2021,26,"Hardy Storage Company, LLC"
+11/8/2021,11/17/2021,9,"Hardy Storage Company, LLC"
+11/20/2021,11/22/2021,2,"Hardy Storage Company, LLC"
+12/3/2021,12/5/2021,2,"Hardy Storage Company, LLC"
