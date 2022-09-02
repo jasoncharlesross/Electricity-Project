@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import WebDriverException
 
 def write_list_to_file(list, file):
     i = 0
@@ -87,9 +88,28 @@ def scrape(pipeline_names, dates, error):
                     error.write("\"" + str(pipeline) + "\",")
                     write_list_to_file([date[0], date[1], str(num_results)], error)
                     error.write("\"65000 < num_entries < 250000\"\n")
-                    time.sleep(5)
-                    criteria.click()
-                    continue
+                    try:
+                        criteria.click()
+                        continue
+                    except WebDriverException:
+                        try:
+                            time.sleep(5.0)
+                            criteria.click()
+                            continue
+                        except WebDriverException:
+                            try: 
+                                time.sleep(5.0)
+                                criteria.click()
+                                continue
+                            except WebDriverException:
+                                try:
+                                    time.sleep(5.0)
+                                    criteria.click()
+                                    continue
+                                except WebDriverException:
+                                    time.sleep(5.0)
+                                    criteria.click()
+                                    continue
                 if num_results == 0:
                     error.write("\"" + str(pipeline) + "\",")
                     write_list_to_file([date[0], date[1], "0"], error)
@@ -99,12 +119,15 @@ def scrape(pipeline_names, dates, error):
                     continue
 
             # end new stuff
-
+            
             driver.implicitly_wait(60)
             export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
             WebDriverWait(driver, 45).until(expected_conditions.element_to_be_clickable(export))
             time.sleep(1)
             export.click()
+            time.sleep(3)
+            if (expected_conditions.element_to_be_clickable(export)) == 1:
+                export.click()
 
             driver.implicitly_wait(60)
             download = driver.find_element(By.CLASS_NAME, "downloadLink")
