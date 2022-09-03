@@ -103,20 +103,39 @@ def scrape(pipeline_names, dates, error):
                                 continue
                             except WebDriverException:
                                 try:
-                                    time.sleep(5.0)
+                                    time.sleep(7.0)
                                     criteria.click()
                                     continue
                                 except WebDriverException:
-                                    time.sleep(5.0)
+                                    time.sleep(7.0)
                                     criteria.click()
                                     continue
                 if num_results == 0:
                     error.write("\"" + str(pipeline) + "\",")
                     write_list_to_file([date[0], date[1], "0"], error)
                     error.write("\"0 entries\"\n")
-                    driver.implicitly_wait(30)
-                    criteria.click()
-                    continue
+                    try:
+                        criteria.click()
+                        continue
+                    except WebDriverException:
+                        try:
+                            time.sleep(5.0)
+                            criteria.click()
+                            continue
+                        except WebDriverException:
+                            try: 
+                                time.sleep(5.0)
+                                criteria.click()
+                                continue
+                            except WebDriverException:
+                                try:
+                                    time.sleep(7.0)
+                                    criteria.click()
+                                    continue
+                                except WebDriverException:
+                                    time.sleep(7.0)
+                                    criteria.click()
+                                    continue
 
             # end new stuff
             
@@ -125,12 +144,16 @@ def scrape(pipeline_names, dates, error):
             WebDriverWait(driver, 45).until(expected_conditions.element_to_be_clickable(export))
             time.sleep(1)
             export.click()
-            time.sleep(3)
-            if (expected_conditions.element_to_be_clickable(export)) == 1:
-                export.click()
 
             driver.implicitly_wait(60)
-            download = driver.find_element(By.CLASS_NAME, "downloadLink")
+
+            try:
+                download = driver.find_element(By.CLASS_NAME, "downloadLink")
+            except NoSuchElementException:
+                export.click()
+                driver.implicitly_wait(60)
+                download = driver.find_element(By.CLASS_NAME, "downloadLink")
+
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
             time.sleep(0.5)
             download.click()
