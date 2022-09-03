@@ -16,22 +16,10 @@ with open('/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/input/p
     reader = csv.reader(f)
     pipeline_names = list(reader)
 
-with open('/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/input/dates_by_month.csv', newline = '') as f:
-    reader = csv.reader(f)
-    dates_1_per_month = list(reader)
-
-with open('/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/input/dates_2_per_month.csv', newline = '') as f:
-    reader = csv.reader(f)
-    dates_2_per_month = list(reader)
-
 with open('/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/input/dates_4_per_month.csv', newline = '') as f:
     reader = csv.reader(f)
-    dates_4_per_month = list(reader)
-
-with open('/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/input/dates_6_per_month.csv', newline = '') as f:
-    reader = csv.reader(f)
-    dates_6_per_month = list(reader)
+    dates = list(reader)
 
 error = open("/Users/jason/Desktop/Hortaçsu/Electricity-Project/Scrape #4/errors.csv", "w")
 
-scrape(pipeline_names, dates_1_per_month, dates_2_per_month, dates_4_per_month, dates_6_per_month, error)
+scrape(pipeline_names, dates, error)

@@ -1,85 +1,208 @@
-"['Colorado Interstate Gas Company, L.L.C.']","01/01/2017"," 01/31/2017","73382","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","02/01/2017"," 02/28/2017","66525","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","03/01/2017"," 03/31/2017","73470","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","04/01/2017"," 04/30/2017","70865","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","05/01/2017"," 05/31/2017","73280","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","06/01/2017"," 06/30/2017","70878","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","07/01/2017"," 07/31/2017","73120","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","08/01/2017"," 08/31/2017","73120","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","09/01/2017"," 09/30/2017","70923","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","10/01/2017"," 10/31/2017","73280","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","11/01/2017"," 11/30/2017","70990","65000 < num_entries < 250000"
-"['Colorado Interstate Gas Company, L.L.C.']","12/01/2017"," 12/31/2017","73280","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","01/01/2017"," 01/31/2017","205997","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","02/01/2017"," 02/28/2017","187808","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","03/01/2017"," 03/31/2017","207406","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","04/01/2017"," 04/30/2017","201688","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","05/01/2017"," 05/31/2017","208097","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","06/01/2017"," 06/30/2017","201307","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","07/01/2017"," 07/31/2017","207211","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","08/01/2017"," 08/31/2017","207033","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","09/01/2017"," 09/30/2017","200314","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","10/01/2017"," 10/31/2017","206016","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","11/01/2017"," 11/30/2017","199246","65000 < num_entries < 250000"
-"['Columbia Gas Transmission, LLC']","12/01/2017"," 12/31/2017","205009","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","01/01/2017"," 01/31/2017","108260","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","02/01/2017"," 02/28/2017","98455","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","03/01/2017"," 03/31/2017","108757","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","04/01/2017"," 04/30/2017","105400","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","05/01/2017"," 05/31/2017","109233","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","06/01/2017"," 06/30/2017","106228","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","07/01/2017"," 07/31/2017","110160","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","08/01/2017"," 08/31/2017","110404","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","09/01/2017"," 09/30/2017","107147","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","10/01/2017"," 10/31/2017","74471","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","11/01/2017"," 11/30/2017","82494","65000 < num_entries < 250000"
-"['El Paso Natural Gas Company, L.L.C.']","12/01/2017"," 12/31/2017","85290","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","01/01/2017"," 01/31/2017","248421","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","02/01/2017"," 02/28/2017","214968","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","03/01/2017"," 03/31/2017","239325","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","04/01/2017"," 04/30/2017","238450","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","05/01/2017"," 05/31/2017","246056","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","06/01/2017"," 06/30/2017","242178","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","07/01/2017"," 07/31/2017","249991","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","08/01/2017"," 08/31/2017","248546","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","09/01/2017"," 09/30/2017","241131","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","10/01/2017"," 10/31/2017","250000","> 250000 entries"
-"['Enable Gas Transmission, LLC']","11/01/2017"," 11/30/2017","243660","65000 < num_entries < 250000"
-"['Enable Gas Transmission, LLC']","12/01/2017"," 12/31/2017","250000","> 250000 entries"
-"['Florida Gas Transmission Company, LLC']","01/01/2017"," 01/31/2017","67659","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","03/01/2017"," 03/31/2017","67528","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","04/01/2017"," 04/30/2017","65804","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","05/01/2017"," 05/31/2017","68430","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","06/01/2017"," 06/30/2017","66650","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","07/01/2017"," 07/31/2017","68802","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","08/01/2017"," 08/31/2017","68816","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","09/01/2017"," 09/30/2017","66836","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","10/01/2017"," 10/31/2017","69090","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","11/01/2017"," 11/30/2017","66577","65000 < num_entries < 250000"
-"['Florida Gas Transmission Company, LLC']","12/01/2017"," 12/31/2017","68415","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","01/01/2017"," 01/31/2017","139040","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","02/01/2017"," 02/28/2017","125379","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","03/01/2017"," 03/31/2017","138455","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","04/01/2017"," 04/30/2017","133872","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","05/01/2017"," 05/31/2017","137899","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","06/01/2017"," 06/30/2017","133889","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","07/01/2017"," 07/31/2017","138400","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","08/01/2017"," 08/31/2017","138158","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","09/01/2017"," 09/30/2017","133568","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","10/01/2017"," 10/31/2017","137816","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","11/01/2017"," 11/30/2017","133889","65000 < num_entries < 250000"
-"['Gulf South Pipeline Company, LP']","12/01/2017"," 12/31/2017","138240","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","01/01/2017"," 01/31/2017","110007","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","02/01/2017"," 02/28/2017","99359","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","03/01/2017"," 03/31/2017","110734","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","04/01/2017"," 04/30/2017","107260","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","05/01/2017"," 05/31/2017","110767","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","06/01/2017"," 06/30/2017","107375","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","07/01/2017"," 07/31/2017","110792","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","08/01/2017"," 08/31/2017","110720","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","09/01/2017"," 09/30/2017","107260","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","10/01/2017"," 10/31/2017","110720","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","11/01/2017"," 11/30/2017","107109","65000 < num_entries < 250000"
-"['Natural Gas Pipeline Company of America LLC']","12/01/2017"," 12/31/2017","110578","65000 < num_entries < 250000"
-"['Nexus']","01/01/2017"," 01/31/2017","0","0 entries"
-
+"Colorado Interstate Gas Company, L.L.C.",1/1/17, 01/31/2017,73382,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",2/1/17, 02/28/2017,66525,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",3/1/17, 03/31/2017,73470,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",4/1/17, 04/30/2017,70865,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",5/1/17, 05/31/2017,73280,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",6/1/17, 06/30/2017,70878,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",7/1/17, 07/31/2017,73120,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",8/1/17, 08/31/2017,73120,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",9/1/17, 09/30/2017,70923,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",10/1/17, 10/31/2017,73280,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",11/1/17, 11/30/2017,70990,65000 < num_entries < 250000
+"Colorado Interstate Gas Company, L.L.C.",12/1/17, 12/31/2017,73280,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",1/1/17, 01/31/2017,205997,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",2/1/17, 02/28/2017,187808,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",3/1/17, 03/31/2017,207406,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",4/1/17, 04/30/2017,201688,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",5/1/17, 05/31/2017,208097,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",6/1/17, 06/30/2017,201307,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",7/1/17, 07/31/2017,207211,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",8/1/17, 08/31/2017,207033,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",9/1/17, 09/30/2017,200314,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",10/1/17, 10/31/2017,206016,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",11/1/17, 11/30/2017,199246,65000 < num_entries < 250000
+"Columbia Gas Transmission, LLC",12/1/17, 12/31/2017,205009,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",1/1/17, 01/31/2017,108260,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",2/1/17, 02/28/2017,98455,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",3/1/17, 03/31/2017,108757,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",4/1/17, 04/30/2017,105400,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",5/1/17, 05/31/2017,109233,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",6/1/17, 06/30/2017,106228,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",7/1/17, 07/31/2017,110160,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",8/1/17, 08/31/2017,110404,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",9/1/17, 09/30/2017,107147,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",10/1/17, 10/31/2017,74471,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",11/1/17, 11/30/2017,82494,65000 < num_entries < 250000
+"El Paso Natural Gas Company, L.L.C.",12/1/17, 12/31/2017,85290,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",1/1/17, 01/31/2017,248421,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",2/1/17, 02/28/2017,214968,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",3/1/17, 03/31/2017,239325,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",4/1/17, 04/30/2017,238450,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",5/1/17, 05/31/2017,246056,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",6/1/17, 06/30/2017,242178,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",7/1/17, 07/31/2017,249991,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",8/1/17, 08/31/2017,248546,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",9/1/17, 09/30/2017,241131,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",10/1/17, 10/31/2017,250000,> 250000 entries
+"Enable Gas Transmission, LLC",11/1/17, 11/30/2017,243660,65000 < num_entries < 250000
+"Enable Gas Transmission, LLC",12/1/17, 12/31/2017,250000,> 250000 entries
+"Florida Gas Transmission Company, LLC",1/1/17, 01/31/2017,67659,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",3/1/17, 03/31/2017,67528,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",4/1/17, 04/30/2017,65804,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",5/1/17, 05/31/2017,68430,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",6/1/17, 06/30/2017,66650,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",7/1/17, 07/31/2017,68802,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",8/1/17, 08/31/2017,68816,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",9/1/17, 09/30/2017,66836,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",10/1/17, 10/31/2017,69090,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",11/1/17, 11/30/2017,66577,65000 < num_entries < 250000
+"Florida Gas Transmission Company, LLC",12/1/17, 12/31/2017,68415,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",1/1/17, 01/31/2017,139040,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",2/1/17, 02/28/2017,125379,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",3/1/17, 03/31/2017,138455,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",4/1/17, 04/30/2017,133872,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",5/1/17, 05/31/2017,137899,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",6/1/17, 06/30/2017,133889,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",7/1/17, 07/31/2017,138400,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",8/1/17, 08/31/2017,138158,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",9/1/17, 09/30/2017,133568,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",10/1/17, 10/31/2017,137816,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",11/1/17, 11/30/2017,133889,65000 < num_entries < 250000
+"Gulf South Pipeline Company, LP",12/1/17, 12/31/2017,138240,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,1/1/17, 01/31/2017,110007,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,2/1/17, 02/28/2017,99359,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,3/1/17, 03/31/2017,110734,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,4/1/17, 04/30/2017,107260,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,5/1/17, 05/31/2017,110767,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,6/1/17, 06/30/2017,107375,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,7/1/17, 07/31/2017,110792,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,8/1/17, 08/31/2017,110720,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,9/1/17, 09/30/2017,107260,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,10/1/17, 10/31/2017,110720,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,11/1/17, 11/30/2017,107109,65000 < num_entries < 250000
+Natural Gas Pipeline Company of America LLC,12/1/17, 12/31/2017,110578,65000 < num_entries < 250000
+Nexus,1/1/17, 01/31/2017,0,0 entries
+Nexus,2/1/17, 02/28/2017,0,0 entries
+Nexus,3/1/17, 03/31/2017,0,0 entries
+Nexus,4/1/17, 04/30/2017,0,0 entries
+Nexus,5/1/17, 05/31/2017,0,0 entries
+Nexus,6/1/17, 06/30/2017,0,0 entries
+Nexus,7/1/17, 07/31/2017,0,0 entries
+Nexus,8/1/17, 08/31/2017,0,0 entries
+Nexus,9/1/17, 09/30/2017,0,0 entries
+Nexus,10/1/17, 10/31/2017,0,0 entries
+Nexus,11/1/17, 11/30/2017,0,0 entries
+Nexus,12/1/17, 12/31/2017,0,0 entries
+Northern Natural Gas Company,1/1/17, 01/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,2/1/17, 02/28/2017,250000,> 250000 entries
+Northern Natural Gas Company,3/1/17, 03/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,4/1/17, 04/30/2017,250000,> 250000 entries
+Northern Natural Gas Company,5/1/17, 05/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,6/1/17, 06/30/2017,250000,> 250000 entries
+Northern Natural Gas Company,7/1/17, 07/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,8/1/17, 08/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,9/1/17, 09/30/2017,250000,> 250000 entries
+Northern Natural Gas Company,10/1/17, 10/31/2017,250000,> 250000 entries
+Northern Natural Gas Company,11/1/17, 11/30/2017,250000,> 250000 entries
+Northern Natural Gas Company,12/1/17, 12/31/2017,250000,> 250000 entries
+Northwest Pipeline LLC,1/1/17, 01/31/2017,103242,65000 < num_entries < 250000
+Northwest Pipeline LLC,2/1/17, 02/28/2017,93545,65000 < num_entries < 250000
+Northwest Pipeline LLC,3/1/17, 03/31/2017,102565,65000 < num_entries < 250000
+Northwest Pipeline LLC,4/1/17, 04/30/2017,100824,65000 < num_entries < 250000
+Northwest Pipeline LLC,5/1/17, 05/31/2017,111316,65000 < num_entries < 250000
+Northwest Pipeline LLC,6/1/17, 06/30/2017,107641,65000 < num_entries < 250000
+Northwest Pipeline LLC,7/1/17, 07/31/2017,111649,65000 < num_entries < 250000
+Northwest Pipeline LLC,8/1/17, 08/31/2017,111984,65000 < num_entries < 250000
+Northwest Pipeline LLC,9/1/17, 09/30/2017,98769,65000 < num_entries < 250000
+Northwest Pipeline LLC,10/1/17, 10/31/2017,112132,65000 < num_entries < 250000
+Northwest Pipeline LLC,11/1/17, 11/30/2017,109123,65000 < num_entries < 250000
+Northwest Pipeline LLC,12/1/17, 12/31/2017,112649,65000 < num_entries < 250000
+Rover Pipeline LLC,1/1/17, 01/31/2017,0,0 entries
+Rover Pipeline LLC,2/1/17, 02/28/2017,0,0 entries
+Rover Pipeline LLC,3/1/17, 03/31/2017,0,0 entries
+Rover Pipeline LLC,4/1/17, 04/30/2017,0,0 entries
+Rover Pipeline LLC,5/1/17, 05/31/2017,0,0 entries
+Rover Pipeline LLC,6/1/17, 06/30/2017,0,0 entries
+Rover Pipeline LLC,7/1/17, 07/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",1/1/17, 01/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",2/1/17, 02/28/2017,0,0 entries
+"Sabal Trail Transmission, LLC",3/1/17, 03/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",4/1/17, 04/30/2017,0,0 entries
+"Sabal Trail Transmission, LLC",5/1/17, 05/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",6/1/17, 06/30/2017,0,0 entries
+"Sabal Trail Transmission, LLC",7/1/17, 07/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",8/1/17, 08/31/2017,0,0 entries
+"Sabal Trail Transmission, LLC",9/1/17, 09/30/2017,0,0 entries
+"Sabal Trail Transmission, LLC",10/1/17, 10/31/2017,0,0 entries
+"Southern Natural Gas Company, L.L.C.",1/1/17, 01/31/2017,76640,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",2/1/17, 02/28/2017,69455,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",3/1/17, 03/31/2017,76498,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",4/1/17, 04/30/2017,74096,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",5/1/17, 05/31/2017,81287,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",6/1/17, 06/30/2017,78590,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",7/1/17, 07/31/2017,81120,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",8/1/17, 08/31/2017,81120,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",9/1/17, 09/30/2017,78591,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",10/1/17, 10/31/2017,81244,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",11/1/17, 11/30/2017,79358,65000 < num_entries < 250000
+"Southern Natural Gas Company, L.L.C.",12/1/17, 12/31/2017,81944,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",1/1/17, 01/31/2017,109048,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",2/1/17, 02/28/2017,98575,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",3/1/17, 03/31/2017,109007,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",4/1/17, 04/30/2017,105688,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",5/1/17, 05/31/2017,109541,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",6/1/17, 06/30/2017,106175,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",7/1/17, 07/31/2017,109649,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",8/1/17, 08/31/2017,109612,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",9/1/17, 09/30/2017,106152,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",10/1/17, 10/31/2017,109681,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",11/1/17, 11/30/2017,106044,65000 < num_entries < 250000
+"Southern Star Central Gas Pipeline, Inc.",12/1/17, 12/31/2017,109517,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",1/1/17, 01/31/2017,138448,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",2/1/17, 02/28/2017,125570,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",3/1/17, 03/31/2017,138585,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",4/1/17, 04/30/2017,134484,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",5/1/17, 05/31/2017,151544,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",6/1/17, 06/30/2017,146827,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",7/1/17, 07/31/2017,151673,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",8/1/17, 08/31/2017,152000,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",9/1/17, 09/30/2017,147250,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",10/1/17, 10/31/2017,151933,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",11/1/17, 11/30/2017,147424,65000 < num_entries < 250000
+"Tennessee Gas Pipeline Company, L.L.C.",12/1/17, 12/31/2017,153436,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",1/1/17, 01/31/2017,145657,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",2/1/17, 02/28/2017,132108,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",3/1/17, 03/31/2017,146051,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",4/1/17, 04/30/2017,141576,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",5/1/17, 05/31/2017,146155,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",6/1/17, 06/30/2017,142169,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",7/1/17, 07/31/2017,146988,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",8/1/17, 08/31/2017,147677,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",9/1/17, 09/30/2017,142951,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",10/1/17, 10/31/2017,147819,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",11/1/17, 11/30/2017,144214,65000 < num_entries < 250000
+"Texas Eastern Transmission, LP",12/1/17, 12/31/2017,149300,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",1/1/17, 01/31/2017,77653,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",2/1/17, 02/28/2017,70325,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",3/1/17, 03/31/2017,77567,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",4/1/17, 04/30/2017,75273,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",5/1/17, 05/31/2017,77755,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",6/1/17, 06/30/2017,75391,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",7/1/17, 07/31/2017,78061,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",8/1/17, 08/31/2017,78080,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",9/1/17, 09/30/2017,75640,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",10/1/17, 10/31/2017,78080,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",11/1/17, 11/30/2017,75640,65000 < num_entries < 250000
+"Texas Gas Transmission, LLC",12/1/17, 12/31/2017,78080,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",1/1/17, 01/31/2017,74015,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",2/1/17, 02/28/2017,67354,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",3/1/17, 03/31/2017,74135,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",4/1/17, 04/30/2017,71720,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",5/1/17, 05/31/2017,73930,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",6/1/17, 06/30/2017,71951,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",7/1/17, 07/31/2017,74781,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",8/1/17, 08/31/2017,74628,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",9/1/17, 09/30/2017,72185,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",10/1/17, 10/31/2017,75042,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",11/1/17, 11/30/2017,72985,65000 < num_entries < 250000
+"Transcontinental Gas Pipe Line Company, LLC",12/1/17, 12/31/2017,75520,65000 < num_entries < 250000

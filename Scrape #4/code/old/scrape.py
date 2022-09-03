@@ -16,7 +16,7 @@ def write_list_to_file(list, file):
         file.write("\"" + list[i] + "\",")
         i += 1
 
-def scrape(pipeline_names, dates1, dates2, dates4, dates6, error):
+def scrape(pipeline_names, dates, error):
     # open browser
     driver = webdriver.Safari()
     driver.maximize_window()
@@ -49,42 +49,11 @@ def scrape(pipeline_names, dates1, dates2, dates4, dates6, error):
     p = driver.current_window_handle
 
     for pipeline in pipeline_names:
-        WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(pipeline_textbox))
-        pipeline_textbox.clear()
-        pipeline_textbox.send_keys(pipeline)
-
-        WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(start_date))
-        start_date.clear()
-        start_date.send_keys(dates1[0][0])
-
-        WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(end_date))
-        end_date.clear()
-        end_date.send_keys(dates1[0][1])
-        
-        num_results_element = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/div/div/form/div/div/div/div[1]/div[2]/div[10]/div[2]/div[4]/div[1]")
-
-        time.sleep(2)
-
-        # choose correct date granularity dependending on number of results
-        num_results = num_results_element.text
-        while num_results == "":
-            time.sleep(0.5)
-            num_results = num_results_element.text
-        if ">" in num_results:
-            dates = dates6
-        else:
-            num_results = int(num_results.replace(",", ""))
-            if num_results > 210000:
-                dates = dates6
-            elif num_results > 105000:
-                dates = dates4
-            elif num_results > 52500:
-                dates = dates2
-            else:
-                dates = dates1    
-        
         j = 0
         for date in dates:
+            WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(pipeline_textbox))
+            pipeline_textbox.clear()
+            pipeline_textbox.send_keys(pipeline)
 
             driver.implicitly_wait(15)
 
@@ -111,8 +80,8 @@ def scrape(pipeline_names, dates1, dates2, dates4, dates6, error):
             if ">" in num_results:
                 error.write("\"" +  str(pipeline) + "\",")
                 write_list_to_file([date[0], date[1], "250000"], error)
-                error.write("\"> 250000 entries (no downloads made past this one)\"\n")
-                break
+                error.write("\"> 250000 entries\"\n")
+                continue
             else:
                 num_results = int(num_results.replace(",", ""))
                 if num_results > 65000:
@@ -217,5 +186,54 @@ def scrape(pipeline_names, dates1, dates2, dates4, dates6, error):
             WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
             criteria.click()
         j += 1
+            # try:
+            #     driver.implicitly_wait(45)
+            #     export = driver.find_element(By.XPATH, "//*[@id='applicationHost']/div/div[2]/div[2]/div[4]/div[16]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div[4]/div/div/div[3]/div/button[1]")
+            #     WebDriverWait(driver, 45).until(expected_conditions.element_to_be_clickable(export))
+            #     time.sleep(1)
+            #     export.click()
+            # except ElementNotInteractableException:
+            #     write_list_to_file(error, scrape_i)
+            #     error.write("Export button not available (export size too big or no data to be exported)\n")
+            #     time.sleep(1)
+            #     criteria.click()
+            #     continue
+            # except TimeoutException:
+            #     write_list_to_file(error, scrape_i)
+            #     error.write("Export button timed out (nothing to export)\n")
+            #     time.sleep(1)
+            #     criteria.click()
+            #     continue
+            # except NoSuchElementException:
+            #     write_list_to_file(error, scrape_i)
+            #     error.write("Export button does not exist\n")
+            #     time.sleep(1)
+            #     criteria.click()
+            #     continue
+            # else:
+            #     # determine whether download link is available (would be unavailable if too much data to export)
+            #     # if no download link is available, break this iteration of the loop (and report to terminal)
+            #     try:
+            #         driver.implicitly_wait(45)
+            #         download = driver.find_element(By.CLASS_NAME, "downloadLink")
+            #     except:
+            #         criteria.click()
+            #         write_list_to_file(error, scrape_i)
+            #         error.write("Download link not available (export size too big)\n")
+            #         continue
+            #     else:
+            #         WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(download))
+            #         time.sleep(0.5)
+            #         download.click()
+            #         time.sleep(2)
+            #         chwd = driver.window_handles
+            #         for w in chwd:
+            #             if (w != p):
+            #                 driver.switch_to.window(w)
+            #                 break
+            #         driver.close()
+            #         driver.switch_to.window(p)
+            #         WebDriverWait(driver, 30).until(expected_conditions.element_to_be_clickable(criteria))
+            #         criteria.click()
     time.sleep(5)
     driver.quit()
