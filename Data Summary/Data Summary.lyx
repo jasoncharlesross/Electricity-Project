@@ -1,0 +1,1009 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+
+% Packages
+%\usepackage[T1]{fontenc}
+%\usepackage{palatino}
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{latexsym}
+\usepackage{bigints}
+\usepackage{amsthm}
+\usepackage{pstricks}
+\usepackage{mathrsfs}%Added by NPML needed for \mathscr
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{caption}
+%\usepackage{indentfirst}
+\usepackage{subcaption}
+\usepackage{diagbox}
+\usepackage{subtext}
+\usepackage[shortlabels]{enumitem}
+
+
+% Solution environment
+\newenvironment{solution}{%\vspace{0.1in}
+    \par\emph{Solution:}{}
+    %\vspace{0.01in}
+    }{
+
+}% packages for writing code
+\usepackage{listings}
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=R,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny,
+  keywordstyle=,
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+% Math Symbols
+\def\T{{\mathbb{T}}}
+\def\C{{\mathbb{C}}}
+\def\E{{\mathbb{E}}}
+\def\R{{\mathbb{R}}}
+\def\Q{{\mathbb{Q}}}
+\def\Z{{\mathbb{Z}}}
+\def\N{{\mathbb{N}}}
+\def\A{{\mathbb{A}}}
+\renewcommand{\P}{\mathbb{P}}
+\def\ip#1#2{\langle{#1},{#2}\rangle}
+\def\mmod#1{\allowbreak\mkern6mu({\rm mod}\,\,{#1})}
+\def\U{{\mathop{\operator@font U}\nolimits}}
+\def\SU{{\mathop{\operator@font SU}\nolimits}}
+\def\O{{\mathop{\operator@font O}\nolimits}}
+\def\SO{{\mathop{\operator@font SO}\nolimits}}
+\def\fM{{\mathfrak{M}}}
+\def\sP{{\mathscr{P}}}
+\def\sS{{\mathscr{S}}}
+\def\sd{\mathbin{\triangle}}
+\def\sF{\mathscr{F}}
+\def\Pset{\mathcal P}
+\newcommand{\1}{\mathbbm{1}}
+
+% Math Abbreviations
+\def\im{\mathrm{Im}}
+\def\diam{\mathrm{diam}}
+\def\Sym{\mathrm{Sym}}
+\def\lub{\mathrm{lub}}
+\def\glb{\mathrm{glb}}
+\def\supp{\mathrm{supp}}
+\def\Arg{\mathrm{Arg}}
+\def\pf{\emph{Proof.} }
+\def\proj{\mathrm{proj}}
+\def\det{\mathrm{det}}
+\def\Aut{\mathrm{Aut}}
+\def\Inn{\mathrm{Inn}}
+
+% Shortcuts
+\let\epsilon=\varepsilon
+\newcommand{\e}{\varepsilon}
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\newcommand{\g}{\gamma}
+\newcommand{\w}{\omega}
+\renewcommand{\d}{\delta}
+\newcommand{\perm}{\text{Permute}}
+\newcommand{\var}{\text{Var}}
+\newcommand{\uni}{\text{Uni}}
+\newcommand{\cov}{\text{Cov}}
+\newcommand{\corr}{\text{Corr}}
+\renewcommand{\supp}{\text{supp}}
+\newcommand{\abs}[1]{\left| {#1} \right|}
+\newcommand{\norm}[1]{\left|\left| {#1} \right|\right|}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand{\pto}{\overset{p}{\to}}
+\newcommand{\dto}{\overset{d}{\to}}
+\newcommand{\us}{\textunderscore}
+\newcommand{\notiff}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{"}$\hidewidth\cr$\iff$}}}}
+
+\theoremstyle{definition}
+
+\newtheorem{theorem}{Theorem}\newtheorem{definition}{Definition}\newtheorem{corollary}{Corollary}\newtheorem{proposition}{Proposition}\newtheorem{example}{Example}\newtheorem{axiom}{Axiom}\newtheorem{assumption}{Assumption}\newtheorem{method}{Method}\theoremstyle{definition}
+\newtheorem{case}{Case}\theoremstyle{definition}
+\newtheorem{effect}{Effect}\theoremstyle{definition}
+
+\graphicspath{ {./images/} }
+
+\title{\textbf{Natural Gas Data Summary}}
+\author{Jason Charles Ross}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "final,bookmarksnumbered=true,linkcolor=blue,citecolor=blue,filecolor=blue,menucolor=blue,urlcolor=blue,pdfnewwindow=true,pdfstartview=FitBH"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 2
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Natural Gas Transactions Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+setstretch
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+1.5
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have data on 193,578,719 natural gas transactions from January 2017 through
+ August 2022 across 119 different pipelines.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+These pipelines can be found on midway2 at 
+\family typewriter
+/project2/hortacsu/naturalgas/pipeline
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ names.csv
+\end_layout
+
+\end_inset
+
+ The cleaned data is stored on midway2 at 
+\begin_inset Formula 
+\[
+\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore fixed.csv}
+\]
+
+\end_inset
+
+The original data is stored at the same directory with the file name 
+\family typewriter
+ngasdata.csv
+\family default
+.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The cleaned data has human-readable dates and corrects a formatting issue
+ across POINT
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ NAME observations than hindered reading into R or Stata.
+\end_layout
+
+\end_inset
+
+ The data separated by pipeline is stored at 
+\begin_inset Formula 
+\[
+\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore by\textunderscore pipeline/}
+\]
+
+\end_inset
+
+The data separated by year and the 11 pipelines in the MISO South region
+ and the 108 not in the MISO South region is stored at 
+\begin_inset Formula 
+\[
+\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore by\textunderscore miso/}
+\]
+
+\end_inset
+
+For the latter data, for example, one file contains all natural gas transactions
+ in the MISO South region in 2019.
+\end_layout
+
+\begin_layout Standard
+For each transaction, we observe the following 12 characteristics, where
+ items in parenthesis denote either the set of possible entries when there
+ are few possibilities or a brief explanation of the data in the column:
+ 
+\end_layout
+
+\begin_layout Enumerate
+POINT
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ NAME 
+\end_layout
+
+\begin_layout Enumerate
+OPERATIONAL
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ CAPACITY
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ KEY 
+\end_layout
+
+\begin_layout Enumerate
+GAS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ DAY (transaction date) 
+\end_layout
+
+\begin_layout Enumerate
+RECEIPT
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ DLVY (Delivery, Mainline, Receipt, Bi-Directional, Segment) 
+\end_layout
+
+\begin_layout Enumerate
+SCH
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ CAPACITY 
+\end_layout
+
+\begin_layout Enumerate
+PIPELINE
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ NAME 
+\end_layout
+
+\begin_layout Enumerate
+POINT
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ TYPE (Delivery to an LDC, Mainline, Gas Processing Plant, Delivery to End
+ User, Compressor, Interconnect, Storage Quantity, Gathering, Receipt by
+ LDC, Exchange, Unknown, Pool, Segment, Power Plant, LNG, Storage Withdrawal,
+ Stand Alone Meter, Wellhead, Storage Injection) 
+\end_layout
+
+\begin_layout Enumerate
+FLOW
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ INDICATOR (Delivery, Line Capacity, Receipt, Injection, Withdrawal, Bi-Directio
+nal, Forwardhaul, Backhaul, South, West, East, North) 
+\end_layout
+
+\begin_layout Enumerate
+CYCLE (Timely, Evening, Intraday 1, Intraday 2, Intraday 3) 
+\end_layout
+
+\begin_layout Enumerate
+AVAIL
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ CAPACITY 
+\end_layout
+
+\begin_layout Enumerate
+FREQ (Daily, Monthly) 
+\end_layout
+
+\begin_layout Enumerate
+MAX
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+textunderscore
+\end_layout
+
+\end_inset
+
+ CAPACITY 
+\end_layout
+
+\begin_layout Section
+Tariff Summary Data
+\end_layout
+
+\begin_layout Standard
+We have data on 6,818,135 tariff observations from January 2018 to December
+ 2021 across the 11 MISO South pipelines.
+ The data is stored on midway2 at 
+\begin_inset Formula 
+\[
+\texttt{/project2/hortacsu/naturalgas/tariff.csv}
+\]
+
+\end_inset
+
+Each tariff observation has 10 characteristics: 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ type (Electric Power Costs, ACA, Commodity, Fuel, Overrun, Reservation,
+ Injection, Storage Demand, Storage Quantity, Withdrawal, Injection Fuel,
+ Injection Overrun, Withdrawal Fuel, Withdrawal Overrun, Loaning, Parking,
+ Inventory Cycling, Sourcing) 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ date
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ begun 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ end 
+\end_layout
+
+\begin_layout Enumerate
+receipt
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ zone 
+\end_layout
+
+\begin_layout Enumerate
+delivery
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ zone 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate 
+\end_layout
+
+\begin_layout Enumerate
+magnitude ($/Dth%, $/Dth/day, $/Dth/mth, Â¢/Dth/day, Â¢/Dth,) 
+\end_layout
+
+\begin_layout Enumerate
+pipeline 
+\end_layout
+
+\begin_layout Enumerate
+effective
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ date (date selected by web scraper to make download) 
+\end_layout
+
+\begin_layout Enumerate
+rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ schedule 
+\end_layout
+
+\begin_layout Standard
+The set of available rate schedules varies across different pipelines (e.g.
+ some pipelines may have one rate schedules, others may have 15).
+ Tariffs are either defined between two zones (points are grouped by zones)
+ or throughout an entire system.
+\end_layout
+
+\begin_layout Section
+Rate Calculator Data (in progress)
+\end_layout
+
+\begin_layout Subsection
+Rate Data
+\end_layout
+
+\begin_layout Standard
+The rate calculator data download is in progress.
+ We will have observations from January 2018 through December 2021 across
+ the 10 MISO South pipelines.
+ There are 10 characteristics for each rate observation: 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ type 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate 
+\end_layout
+
+\begin_layout Enumerate
+magnitude 
+\end_layout
+
+\begin_layout Enumerate
+tariff
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ structure 
+\end_layout
+
+\begin_layout Enumerate
+rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ zone 
+\end_layout
+
+\begin_layout Enumerate
+date (we download all data at the first day of every month) 
+\end_layout
+
+\begin_layout Enumerate
+pipeline 
+\end_layout
+
+\begin_layout Enumerate
+rate
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ schedule 
+\end_layout
+
+\begin_layout Enumerate
+receipt
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ zone 
+\end_layout
+
+\begin_layout Enumerate
+delivery
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+us
+\end_layout
+
+\end_inset
+
+ zone 
+\end_layout
+
+\begin_layout Standard
+The set of available rate schedules varies across different pipelines.
+ The sets of delivery zones and receipt zones vary across different pipelines.
+ Rates are either defined between two zones or throughout an entire system.
+ Interzonal rates vary with rate schedules.
+ Delivery and receipt points are grouped by different zones.
+\end_layout
+
+\begin_layout Standard
+As an example, we select a pipeline 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Then, we select rate schedule 1 in the list of available rate schedules
+ for pipeline 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Next, we download the interzonal rates for each pair of receipt and delivery
+ zones.
+ We then move on to rate schedule 2 and download the interzonal rates for
+ each pair of receipt and delivery zones.
+ We then move onto rate schedule 3, etc.
+\end_layout
+
+\begin_layout Standard
+We download all rates data on the first date of each month.
+ In a random sample, we did not observe any rates that changed within a
+ month (e.g., different rates between the beginning and end of each month;
+ same rate between the beginning and end of each month, but a change and
+ change-back in the middle of the month, etc.).
+ We download data in this manner, as scraping data for each day of the four
+ year period would take a prohibitively long time (at least 30 days by my
+ estimate).
+\end_layout
+
+\begin_layout Subsection
+List of Points
+\end_layout
+
+\begin_layout Standard
+We will have a list of the points included in each delivery and receipt
+ zone for each pipeline.
+ This list will be downloaded at the beginning of each month from January
+ 2018 through December 2021.
+ We do not anticipate that this list will change between months.
+\end_layout
+
+\end_body
+\end_document

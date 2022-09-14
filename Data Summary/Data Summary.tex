@@ -1,0 +1,255 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\pagestyle{plain}
+
+% Packages
+%\usepackage[T1]{fontenc}
+%\usepackage{palatino}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{latexsym}
+\usepackage{bigints}
+\usepackage{amsthm}
+\usepackage{pstricks}
+\usepackage{mathrsfs}%Added by NPML needed for \mathscr
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{caption}
+%\usepackage{indentfirst}
+\usepackage{subcaption}
+\usepackage{diagbox}
+\usepackage{subtext}
+\usepackage[shortlabels]{enumitem}
+\usepackage[final]{hyperref}
+\hypersetup{%
+  bookmarksnumbered=true,%
+  %bookmarks=true,%
+  colorlinks=true,%
+  linkcolor=blue,%
+  citecolor=blue,%
+  filecolor=blue,%
+  menucolor=blue,%
+  urlcolor=blue,%
+  pdfnewwindow=true,%
+  pdfstartview=FitBH}
+
+% Solution environment
+\newenvironment{solution}
+    {%\vspace{0.1in}
+    \par\emph{Solution:}{}
+    %\vspace{0.01in}
+    }
+
+% packages for writing code
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=R,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+% Math Symbols
+\def\T{{\mathbb{T}}}
+\def\C{{\mathbb{C}}}
+\def\E{{\mathbb{E}}}
+\def\R{{\mathbb{R}}}
+\def\Q{{\mathbb{Q}}}
+\def\Z{{\mathbb{Z}}}
+\def\N{{\mathbb{N}}}
+\def\A{{\mathbb{A}}}
+\renewcommand{\P}{\mathbb{P}}
+\def\ip#1#2{\langle{#1},{#2}\rangle}
+\def\mmod#1{\allowbreak\mkern6mu({\rm mod}\,\,{#1})}
+\def\U{{\mathop{\operator@font U}\nolimits}}
+\def\SU{{\mathop{\operator@font SU}\nolimits}}
+\def\O{{\mathop{\operator@font O}\nolimits}}
+\def\SO{{\mathop{\operator@font SO}\nolimits}}
+\def\fM{{\mathfrak{M}}}
+\def\sP{{\mathscr{P}}}
+\def\sS{{\mathscr{S}}}
+\def\sd{\mathbin{\triangle}}
+\def\sF{\mathscr{F}}
+\def\Pset{\mathcal P}
+\newcommand{\1}{\mathbbm{1}}
+
+% Math Abbreviations
+\def\im{\mathrm{Im}}
+\def\diam{\mathrm{diam}}
+\def\Sym{\mathrm{Sym}}
+\def\lub{\mathrm{lub}}
+\def\glb{\mathrm{glb}}
+\def\supp{\mathrm{supp}}
+\def\Arg{\mathrm{Arg}}
+\def\pf{\emph{Proof.} }
+\def\proj{\mathrm{proj}}
+\def\det{\mathrm{det}}
+\def\Aut{\mathrm{Aut}}
+\def\Inn{\mathrm{Inn}}
+
+% Shortcuts
+\let\epsilon=\varepsilon
+\newcommand{\e}{\varepsilon}
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\newcommand{\g}{\gamma}
+\newcommand{\w}{\omega}
+\renewcommand{\d}{\delta}
+\newcommand{\perm}{\text{Permute}}
+\newcommand{\var}{\text{Var}}
+\newcommand{\uni}{\text{Uni}}
+\newcommand{\cov}{\text{Cov}}
+\newcommand{\corr}{\text{Corr}}
+\renewcommand{\supp}{\text{supp}}
+\newcommand{\abs}[1]{\left| {#1} \right|}
+\newcommand{\norm}[1]{\left|\left| {#1} \right|\right|}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand{\pto}{\overset{p}{\to}}
+\newcommand{\dto}{\overset{d}{\to}}
+\newcommand{\us}{\textunderscore}
+\newcommand{\notiff}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{"}$\hidewidth\cr$\iff$}}}}
+
+\theoremstyle{definition}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{example}{Example}
+\newtheorem{axiom}{Axiom}
+\newtheorem{assumption}{Assumption}
+\newtheorem{method}{Method}\theoremstyle{definition}
+\newtheorem{case}{Case}\theoremstyle{definition}
+\newtheorem{effect}{Effect}\theoremstyle{definition}
+
+\graphicspath{ {./images/} }
+
+\title{\textbf{Natural Gas Data Summary}}
+\author{Jason Charles Ross}
+
+\begin{document}
+\begin{centering}
+\maketitle
+\end{centering}
+
+
+\tableofcontents
+
+\section{Natural Gas Transactions Data}
+\setstretch{1.5}
+
+We have data on 193,578,719 natural gas transactions from January 2017 through August 2022 across 119 different pipelines.\footnote{These pipelines can be found on midway2 at \texttt{/project2/hortacsu/naturalgas/pipeline\textunderscore names.csv}} The cleaned data is stored on midway2 at
+$$\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore fixed.csv}$$
+The original data is stored at the same directory with the file name \texttt{ngasdata.csv}.\footnote{The cleaned data has human-readable dates and corrects a formatting issue across POINT\textunderscore NAME observations than hindered reading into R or Stata.} The data separated by pipeline is stored at
+$$\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore by\textunderscore pipeline/}$$
+The data separated by year and the 11 pipelines in the MISO South region and the 108 not in the MISO South region is stored at
+$$\texttt{/project2/hortacsu/naturalgas/ngasdata\textunderscore by\textunderscore miso/}$$
+For the latter data, for example, one file contains all natural gas transactions in the MISO South region in 2019.
+
+For each transaction, we observe the following 12 characteristics, where items in parenthesis denote either the set of possible entries when there are few possibilities or a brief explanation of the data in the column:
+\begin{enumerate}
+    \item POINT\textunderscore NAME
+    \item OPERATIONAL\textunderscore CAPACITY\textunderscore KEY
+    \item GAS\textunderscore DAY (transaction date)
+    \item RECEIPT\textunderscore DLVY (Delivery, Mainline, Receipt, Bi-Directional, Segment)
+    \item SCH\textunderscore CAPACITY
+    \item PIPELINE\textunderscore NAME
+    \item POINT\textunderscore TYPE (Delivery to an LDC, Mainline, Gas Processing Plant, Delivery to End User, Compressor, Interconnect, Storage Quantity, Gathering, Receipt by LDC, Exchange, Unknown, Pool, Segment, Power Plant, LNG, Storage Withdrawal, Stand Alone Meter, Wellhead, Storage Injection)
+    \item FLOW\textunderscore INDICATOR (Delivery, Line Capacity, Receipt, Injection, Withdrawal, Bi-Directional, Forwardhaul, Backhaul, South, West, East, North)
+    \item CYCLE (Timely, Evening, Intraday 1, Intraday 2, Intraday 3)
+    \item AVAIL\textunderscore CAPACITY
+    \item FREQ (Daily, Monthly)
+    \item MAX\textunderscore CAPACITY
+\end{enumerate}
+
+\section{Tariff Summary Data}
+
+We have data on 6,818,135 tariff observations from January 2018 to December 2021 across the 11 MISO South pipelines. The data is stored on midway2 at
+$$\texttt{/project2/hortacsu/naturalgas/tariff.csv}$$
+Each tariff observation has 10 characteristics:
+\begin{enumerate}
+\item tariff\us rate\us type (Electric Power Costs,
+ACA,
+Commodity,
+Fuel,
+Overrun,
+Reservation,
+Injection,
+Storage Demand,
+Storage Quantity,
+Withdrawal,
+Injection Fuel,
+Injection Overrun,
+Withdrawal Fuel,
+Withdrawal Overrun,
+Loaning,
+Parking,
+Inventory Cycling,
+Sourcing)
+\item tariff\us date\us begun
+\item tariff\us rate\us end
+\item receipt\us zone
+\item delivery\us zone
+\item tariff\us rate
+\item magnitude (\$/Dth\%,
+\$/Dth/day,
+\$/Dth/mth,
+¢/Dth/day,
+¢/Dth,)
+\item pipeline
+\item effective\us date (date selected by web scraper to make download)
+\item rate\us schedule
+\end{enumerate}
+The set of available rate schedules varies across different pipelines (e.g. some pipelines may have one rate schedules, others may have 15). Tariffs are either defined between two zones (points are grouped by zones) or throughout an entire system.
+
+\section{Rate Calculator Data (in progress)}
+
+\subsection{Rate Data}
+
+The rate calculator data download is in progress. We will have observations from January 2018 through December 2021 across the 10 MISO South pipelines. There are 10 characteristics for each rate observation:
+\begin{enumerate}
+    \item tariff\us rate\us type
+    \item tariff\us rate
+    \item magnitude
+    \item tariff\us rate\us structure
+    \item rate\us zone
+    \item date (we download all data at the first day of every month)
+    \item pipeline
+    \item rate\us schedule
+    \item receipt\us zone
+    \item delivery\us zone
+\end{enumerate}
+The set of available rate schedules varies across different pipelines. The sets of delivery zones and receipt zones vary across different pipelines. Rates are either defined between two zones or throughout an entire system. Interzonal rates vary with rate schedules. Delivery and receipt points are grouped by different zones. 
+
+As an example, we select a pipeline $i$. Then, we select rate schedule 1 in the list of available rate schedules for pipeline $i$. Next, we download the interzonal rates for each pair of receipt and delivery zones. We then move on to rate schedule 2 and download the interzonal rates for each pair of receipt and delivery zones. We then move onto rate schedule 3, etc. 
+
+We download all rates data on the first date of each month. In a random sample, we did not observe any rates that changed within a month (e.g., different rates between the beginning and end of each month; same rate between the beginning and end of each month, but a change and change-back in the middle of the month, etc.). We download data in this manner, as scraping data for each day of the four year period would take a prohibitively long time (at least 30 days by my estimate).
+
+\subsection{List of Points}
+We will have a list of the points included in each delivery and receipt zone for each pipeline. This list will be downloaded at the beginning of each month from January 2018 through December 2021. We do not anticipate that this list will change between months. 
+
+
+
+\end{document}
